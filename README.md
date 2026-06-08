@@ -88,6 +88,12 @@ python main.py --provider minimax_openai --model MiniMax-M2.1 --diff-file sample
 python main.py --provider minimax_anthropic --model MiniMax-M3 --diff-file sample_diff.patch
 ```
 
+Save the parsed JSON to a file:
+
+```bash
+python main.py --diff-file sample_diff.patch --output-file outputs/review.json
+```
+
 ## Output Shape
 
 The CLI prints a JSON object with:
@@ -103,6 +109,36 @@ Each finding contains:
 - `title`
 - `file`
 - `comment`
+
+If the model returns invalid JSON or misses required keys, the CLI exits with a clear error instead of printing partial output.
+
+## Week 1 Evaluation
+
+Use the sample diffs in `samples/` to probe different failure modes:
+
+- `samples/01_obvious_bug.patch`: should catch a clear correctness regression
+- `samples/02_no_issue_refactor.patch`: should ideally return few or no findings
+- `samples/03_auth_edge_case.patch`: tests whether the reviewer notices permission changes
+- `samples/04_off_by_one.patch`: tests whether it catches a pagination bug
+- `samples/05_swallowed_error.patch`: tests whether it notices swallowed exceptions and false success states
+
+Run them one by one:
+
+```bash
+python main.py --diff-file samples/01_obvious_bug.patch --output-file outputs/01.json
+python main.py --diff-file samples/02_no_issue_refactor.patch --output-file outputs/02.json
+python main.py --diff-file samples/03_auth_edge_case.patch --output-file outputs/03.json
+python main.py --diff-file samples/04_off_by_one.patch --output-file outputs/04.json
+python main.py --diff-file samples/05_swallowed_error.patch --output-file outputs/05.json
+```
+
+For each run, note:
+
+- Did it miss an obvious bug?
+- Did it hallucinate a problem on the refactor-only patch?
+- Did the finding titles and comments stay specific instead of generic?
+- Did the JSON shape remain stable and parseable?
+- Did `needs_manual_review` feel justified?
 
 ## MiniMax Notes
 
@@ -132,3 +168,4 @@ Get this working end to end, then observe:
 - Does it miss obvious bugs?
 - Does it overfocus on style instead of correctness?
 - What output shape would be easier to evaluate later?
+- What single prompt change improves the worst failure you saw?

@@ -1,0 +1,16 @@
+diff --git a/strings.py b/strings.py
+index 3333333..4444444 100644
+--- a/strings.py
++++ b/strings.py
+@@ -1,6 +1,10 @@
+-def normalize(name):
+-    return name.strip().lower()
++def _clean(value):
++    return value.strip()
++
++
++def normalize(name):
++    return _clean(name).lower()
+ 
+ 
+ def same_user(a, b):
