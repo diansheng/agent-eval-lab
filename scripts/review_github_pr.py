@@ -8,7 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from app.agent import ReviewRunResult, review_pull_request
+from app.agent import ReviewRunError, ReviewRunResult, review_pull_request
 from app.config import load_settings
 from app.review_schema import ReviewFormatError
 from app.tools.github_tools import GitHubToolError
@@ -66,6 +66,12 @@ def main() -> None:
             repo=args.repo,
             pr_number=args.pr_number,
         )
+    except ReviewRunError as error:
+        save_trace(error.trace, args.trace_file)
+        print(f"Error: {error}", file=sys.stderr)
+        if args.trace_file:
+            print(f"Trace file: {args.trace_file}", file=sys.stderr)
+        raise SystemExit(1) from error
     except (ValueError, RuntimeError, GitHubToolError, ReviewFormatError) as error:
         print(f"Error: {error}", file=sys.stderr)
         raise SystemExit(1) from error

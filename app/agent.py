@@ -1,7 +1,9 @@
 import json
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from time import time
 from typing import Any
+from uuid import uuid4
 
 import anthropic
 
@@ -66,6 +68,14 @@ class ReviewRunResult:
     trace: dict[str, Any]
 
 
+class ReviewRunError(RuntimeError):
+    """Raised when a review run fails after trace data has already been collected."""
+
+    def __init__(self, message: str, trace: dict[str, Any]):
+        super().__init__(message)
+        self.trace = trace
+
+
 def build_tools() -> list[dict[str, Any]]:
     """Define the GitHub tools exposed to the model."""
 
@@ -106,6 +116,12 @@ def build_tools() -> list[dict[str, Any]]:
     ]
 
 
+def _utc_timestamp() -> str:
+    """Return an ISO timestamp in UTC for trace events."""
+
+    return datetime.now(timezone.utc).isoformat()
+
+
 def _extract_text_blocks(content_blocks: list[Any]) -> str:
     """Collect plain text blocks from an Anthropic-style message response."""
 
@@ -114,28 +130,107 @@ def _extract_text_blocks(content_blocks: list[Any]) -> str:
     ).strip()
 
 
+def _serialize_content_block(block: Any) -> dict[str, Any]:
+    """Convert one SDK content block into a plain dictionary for traces and history."""
+
+    block_type = getattr(block, "type", None)
+
+    if block_type == "text":
+        return {"type": "text", "text": block.text}
+
+    if block_type == "tool_use":
+        return {
+            "type": "tool_use",
+            "id": block.id,
+            "name": block.name,
+            "input": block.input,
+        }
+
+    if hasattr(block, "model_dump"):
+        return block.model_dump()
+
+    raw_dict = getattr(block, "__dict__", None)
+    if isinstance(raw_dict, dict):
+        return {
+            key: value
+            for key, value in raw_dict.items()
+            if not key.startswith("_")
+        }
+
+    return {"type": block_type or "unknown", "repr": repr(block)}
+
+
 def _assistant_blocks_to_dicts(content_blocks: list[Any]) -> list[dict[str, Any]]:
     """Convert SDK content blocks into plain dictionaries for conversation history."""
 
-    serialized_blocks: list[dict[str, Any]] = []
-    for block in content_blocks:
-        block_type = getattr(block, "type", None)
+    return [_serialize_content_block(block) for block in content_blocks]
 
-        if block_type == "text":
-            serialized_blocks.append({"type": "text", "text": block.text})
-            continue
 
-        if block_type == "tool_use":
-            serialized_blocks.append(
-                {
-                    "type": "tool_use",
-                    "id": block.id,
-                    "name": block.name,
-                    "input": block.input,
-                }
-            )
+def _extract_usage(message: Any) -> dict[str, Any]:
+    """Collect token-usage metadata when the provider returns it."""
 
-    return serialized_blocks
+    usage = getattr(message, "usage", None)
+    if usage is None:
+        return {}
+
+    usage_fields = {}
+    for field in (
+        "input_tokens",
+        "output_tokens",
+        "cache_creation_input_tokens",
+        "cache_read_input_tokens",
+    ):
+        value = getattr(usage, field, None)
+        if value is not None:
+            usage_fields[field] = value
+
+    return usage_fields
+
+
+def _build_trace(
+    settings: Settings, owner: str, repo: str, pr_number: int, user_prompt: str
+) -> dict[str, Any]:
+    """Create the initial trace object for a review run."""
+
+    return {
+        "run_id": str(uuid4()),
+        "status": "running",
+        "provider": "minimax_anthropic",
+        "model": settings.anthropic_model,
+        "started_at": _utc_timestamp(),
+        "completed_at": None,
+        "latency_seconds": None,
+        "input": {
+            "owner": owner,
+            "repo": repo,
+            "pr_number": pr_number,
+        },
+        "config": {
+            "max_pr_files": settings.max_pr_files,
+            "max_patch_chars": settings.max_patch_chars,
+            "max_tool_rounds": MAX_TOOL_ROUNDS,
+        },
+        "system_prompt": SYSTEM_PROMPT,
+        "initial_user_message": user_prompt,
+        "tools": build_tools(),
+        "tool_calls": [],
+        "events": [
+            {
+                "timestamp": _utc_timestamp(),
+                "role": "system",
+                "type": "system_prompt",
+                "content": SYSTEM_PROMPT,
+            },
+            {
+                "timestamp": _utc_timestamp(),
+                "role": "user",
+                "type": "user_message",
+                "content": user_prompt,
+            },
+        ],
+        "final_output": None,
+        "error": None,
+    }
 
 
 def _run_tool(
@@ -170,71 +265,131 @@ def review_pull_request(
         base_url=settings.anthropic_base_url,
     )
 
-    messages: list[dict[str, Any]] = [
-        {
-            "role": "user",
-            "content": USER_PROMPT_TEMPLATE.format(
-                owner=owner,
-                repo=repo,
-                pr_number=pr_number,
-            ),
-        }
-    ]
-
-    trace: dict[str, Any] = {
-        "owner": owner,
-        "repo": repo,
-        "pr_number": pr_number,
-        "model": settings.anthropic_model,
-        "tool_calls": [],
-    }
+    user_prompt = USER_PROMPT_TEMPLATE.format(
+        owner=owner,
+        repo=repo,
+        pr_number=pr_number,
+    )
+    messages: list[dict[str, Any]] = [{"role": "user", "content": user_prompt}]
+    trace = _build_trace(settings, owner, repo, pr_number, user_prompt)
 
     started_at = time()
 
-    for round_index in range(1, MAX_TOOL_ROUNDS + 1):
-        message = client.messages.create(
-            model=settings.anthropic_model,
-            max_tokens=1600,
-            system=SYSTEM_PROMPT,
-            tools=build_tools(),
-            messages=messages,
+    try:
+        for round_index in range(1, MAX_TOOL_ROUNDS + 1):
+            message = client.messages.create(
+                model=settings.anthropic_model,
+                max_tokens=1600,
+                system=SYSTEM_PROMPT,
+                tools=build_tools(),
+                messages=messages,
+            )
+
+            assistant_blocks = _assistant_blocks_to_dicts(message.content)
+            messages.append({"role": "assistant", "content": assistant_blocks})
+            trace["events"].append(
+                {
+                    "timestamp": _utc_timestamp(),
+                    "round": round_index,
+                    "role": "assistant",
+                    "type": "assistant_message",
+                    "content_blocks": assistant_blocks,
+                    "usage": _extract_usage(message),
+                }
+            )
+
+            tool_uses = [
+                block for block in message.content if getattr(block, "type", None) == "tool_use"
+            ]
+            if not tool_uses:
+                final_text = _extract_text_blocks(message.content)
+                review = parse_review_json(final_text)
+                trace["rounds"] = round_index
+                trace["status"] = "success"
+                trace["latency_seconds"] = round(time() - started_at, 2)
+                trace["completed_at"] = _utc_timestamp()
+                trace["final_output"] = review
+                trace["events"].append(
+                    {
+                        "timestamp": _utc_timestamp(),
+                        "round": round_index,
+                        "role": "assistant",
+                        "type": "final_output",
+                        "raw_text": final_text,
+                        "parsed_output": review,
+                    }
+                )
+                return ReviewRunResult(review=review, trace=trace)
+
+            tool_results_content: list[dict[str, Any]] = []
+            for block in tool_uses:
+                trace["events"].append(
+                    {
+                        "timestamp": _utc_timestamp(),
+                        "round": round_index,
+                        "role": "assistant",
+                        "type": "tool_use",
+                        "tool_name": block.name,
+                        "tool_use_id": block.id,
+                        "tool_input": block.input,
+                    }
+                )
+
+                result = _run_tool(settings, block.name, block.input)
+                result_summary = _summarize_tool_result(result)
+                trace["tool_calls"].append(
+                    {
+                        "round": round_index,
+                        "name": block.name,
+                        "input": block.input,
+                        "result_summary": result_summary,
+                    }
+                )
+                trace["events"].append(
+                    {
+                        "timestamp": _utc_timestamp(),
+                        "round": round_index,
+                        "role": "tool",
+                        "type": "tool_result",
+                        "tool_name": block.name,
+                        "tool_use_id": block.id,
+                        "tool_input": block.input,
+                        "result_summary": result_summary,
+                        "result": result,
+                    }
+                )
+                tool_results_content.append(
+                    {
+                        "type": "tool_result",
+                        "tool_use_id": block.id,
+                        "content": json.dumps(result),
+                    }
+                )
+
+            messages.append({"role": "user", "content": tool_results_content})
+            trace["events"].append(
+                {
+                    "timestamp": _utc_timestamp(),
+                    "round": round_index,
+                    "role": "user",
+                    "type": "tool_results_message",
+                    "content": tool_results_content,
+                }
+            )
+
+        raise RuntimeError(
+            "Tool loop exceeded the maximum number of rounds. "
+            "Inspect the prompt or tool-call trace."
         )
-
-        assistant_blocks = _assistant_blocks_to_dicts(message.content)
-        messages.append({"role": "assistant", "content": assistant_blocks})
-
-        tool_uses = [block for block in message.content if getattr(block, "type", None) == "tool_use"]
-        if not tool_uses:
-            final_text = _extract_text_blocks(message.content)
-            review = parse_review_json(final_text)
-            trace["rounds"] = round_index
-            trace["latency_seconds"] = round(time() - started_at, 2)
-            return ReviewRunResult(review=review, trace=trace)
-
-        tool_results_content: list[dict[str, Any]] = []
-        for block in tool_uses:
-            result = _run_tool(settings, block.name, block.input)
-            trace["tool_calls"].append(
-                {
-                    "name": block.name,
-                    "input": block.input,
-                    "result_summary": _summarize_tool_result(result),
-                }
-            )
-            tool_results_content.append(
-                {
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": json.dumps(result),
-                }
-            )
-
-        messages.append({"role": "user", "content": tool_results_content})
-
-    raise RuntimeError(
-        "Tool loop exceeded the maximum number of rounds. "
-        "Inspect the prompt or tool-call trace."
-    )
+    except Exception as error:
+        trace["status"] = "error"
+        trace["latency_seconds"] = round(time() - started_at, 2)
+        trace["completed_at"] = _utc_timestamp()
+        trace["error"] = {
+            "type": error.__class__.__name__,
+            "message": str(error),
+        }
+        raise ReviewRunError(str(error), trace) from error
 
 
 def _summarize_tool_result(result: dict[str, Any] | list[dict[str, Any]]) -> dict[str, Any]:
