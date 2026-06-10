@@ -2,6 +2,8 @@
 
 Week 1 baseline project: a CLI that reviews a GitHub PR diff with one LLM call and returns structured JSON.
 
+Week 2 adds a tool layer that can fetch GitHub PR metadata and changed files, then let MiniMax review a real pull request through the Anthropic-compatible API.
+
 ## Why This Version Exists
 
 This is intentionally not a full agent yet.
@@ -94,6 +96,42 @@ Save the parsed JSON to a file:
 python main.py --diff-file sample_diff.patch --output-file outputs/review.json
 ```
 
+## Week 2 Setup
+
+Add GitHub settings to `.env`:
+
+```env
+GITHUB_TOKEN=your_github_token_here
+GITHUB_API_BASE=https://api.github.com
+MAX_PR_FILES=20
+MAX_PATCH_CHARS=4000
+```
+
+Smoke test the GitHub tool layer first:
+
+```bash
+python3 scripts/test_github_tools.py --owner microsoft --repo vscode --pr-number 320628
+```
+
+Review a real GitHub PR with the Week 2 tool loop:
+
+```bash
+python3 scripts/review_github_pr.py --owner microsoft --repo vscode --pr-number 320628
+```
+
+Save the review JSON and basic trace metadata:
+
+```bash
+python3 scripts/review_github_pr.py \
+  --owner microsoft \
+  --repo vscode \
+  --pr-number 320628 \
+  --output-file outputs/pr_review.json \
+  --trace-file logs/pr_review_trace.json
+```
+
+The Week 2 path currently uses the MiniMax Anthropic-compatible setup from `.env`.
+
 ## Output Shape
 
 The CLI prints a JSON object with:
@@ -169,3 +207,13 @@ Get this working end to end, then observe:
 - Does it overfocus on style instead of correctness?
 - What output shape would be easier to evaluate later?
 - What single prompt change improves the worst failure you saw?
+
+## Week 2 Goal
+
+Get the tool-calling reviewer working end to end, then observe:
+
+- Does the model call `fetch_pr` and `fetch_files` in a sensible order?
+- Does it cite real files from the tool output?
+- Does it get stuck in repeated tool calls?
+- Does the final JSON stay stable after tool use?
+- What failures should be traced and fixed in Week 3?
