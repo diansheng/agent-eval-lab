@@ -4,3 +4,5 @@ __pycache__/
 outputs/
 log/
 logs/
+evals/runs/
+evals/reports/latest_summary.md

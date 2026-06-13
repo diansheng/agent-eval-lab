@@ -1,0 +1,14 @@
+{
+  "required_matches": [
+    {
+      "file": "auth.py",
+      "keywords": [
+        "admin",
+        "staff",
+        "role",
+        "permission"
+      ],
+      "min_keyword_hits": 1
+    }
+  ]
+}

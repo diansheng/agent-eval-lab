@@ -1,0 +1,6 @@
+name: week2_regression
+cases:
+  - evals/cases/pr_review_live/case_001/case.yaml
+  - evals/cases/pr_review_live/case_002/case.yaml
+  - evals/cases/pr_review_live/case_003/case.yaml
+  - evals/cases/pr_review_live/case_004/case.yaml

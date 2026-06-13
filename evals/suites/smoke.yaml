@@ -1,0 +1,4 @@
+name: smoke
+cases:
+  - evals/cases/pr_review/case_001/case.yaml
+  - evals/cases/pr_review/case_002/case.yaml

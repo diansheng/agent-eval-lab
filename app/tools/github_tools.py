@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, Optional
 
 import requests
 
@@ -26,7 +26,7 @@ def _build_headers(settings: Settings) -> dict[str, str]:
 
 
 def _get_json(
-    settings: Settings, path: str, params: dict[str, Any] | None = None
+    settings: Settings, path: str, params: Optional[dict[str, Any]] = None
 ) -> Any:
     """Send a GET request to GitHub and return the parsed JSON response."""
 
@@ -53,7 +53,7 @@ def _get_json(
     return response.json()
 
 
-def _truncate_patch(patch: str | None, max_chars: int) -> str | None:
+def _truncate_patch(patch: Optional[str], max_chars: int) -> Optional[str]:
     """Shorten large patch text so it stays small enough for model input."""
 
     if patch is None:

@@ -1,0 +1,7 @@
+name: regression
+cases:
+  - evals/cases/pr_review/case_001/case.yaml
+  - evals/cases/pr_review/case_002/case.yaml
+  - evals/cases/pr_review/case_003/case.yaml
+  - evals/cases/pr_review/case_004/case.yaml
+  - evals/cases/pr_review/case_005/case.yaml

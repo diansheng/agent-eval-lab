@@ -1,0 +1,8 @@
+{
+  "required_tools": [
+    "fetch_pr",
+    "fetch_files"
+  ],
+  "require_order": true,
+  "max_findings": 5
+}

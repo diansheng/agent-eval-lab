@@ -14,6 +14,8 @@ class Settings:
     anthropic_api_key: str
     anthropic_base_url: str
     anthropic_model: str
+    anthropic_max_tokens: int
+    anthropic_temperature: float
     max_pr_files: int
     max_patch_chars: int
 
@@ -33,6 +35,8 @@ def load_settings() -> Settings:
             "https://api.minimaxi.com/anthropic",
         ).rstrip("/"),
         anthropic_model=os.getenv("MINIMAX_ANTHROPIC_MODEL", "MiniMax-M3").strip(),
+        anthropic_max_tokens=int(os.getenv("MINIMAX_ANTHROPIC_MAX_TOKENS", "1600")),
+        anthropic_temperature=float(os.getenv("MINIMAX_ANTHROPIC_TEMPERATURE", "0.0")),
         max_pr_files=int(os.getenv("MAX_PR_FILES", "20")),
         max_patch_chars=int(os.getenv("MAX_PATCH_CHARS", "4000")),
     )

@@ -2,18 +2,18 @@ import json
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from time import time
-from typing import Any
+from typing import Any, Union
 from uuid import uuid4
 
 import anthropic
 
 from app.config import Settings
-from app.review_schema import parse_review_json
+from app.review_schema import parse_review_json, render_review_output_example
 from app.tools.github_tools import GitHubToolError, fetch_files, fetch_pr
 
 
 SYSTEM_PROMPT = """You are a careful code reviewer.
-Review the requested GitHub pull request by calling tools before making claims.
+Review the requested GitHub pull request. Call tools before making claims.
 
 Focus on:
 - likely bugs
@@ -23,6 +23,7 @@ Focus on:
 
 Rules:
 - Call tools to inspect the PR metadata and changed files before producing the final answer.
+- Never claim that a tool failed, that a PR is inaccessible, or that a diff is unavailable unless you actually called the tool and observed that result.
 - Use only information returned by tools.
 - Do not invent files or code not present in tool results.
 - Be concise and practical.
@@ -35,29 +36,20 @@ USER_PROMPT_TEMPLATE = """Review GitHub pull request {owner}/{repo}#{pr_number}.
 First gather the PR metadata and changed files with tools.
 
 Return a JSON object with this exact shape:
-{{
-  "summary": "short overall summary",
-  "findings": [
-    {{
-      "severity": "low | medium | high",
-      "title": "short finding title",
-      "file": "path/to/file.ext",
-      "comment": "concise review comment"
-    }}
-  ],
-  "confidence": "low | medium | high",
-  "needs_manual_review": true
-}}
+{review_output_example}
 
 Rules:
+- Use the available tools to inspect the real PR, not a guessed or remembered one, before writing findings.
 - Return JSON only.
 - If there are no strong findings, return an empty "findings" array.
+- Return at most 5 findings.
 - Do not include markdown fences.
 - Sort findings by severity (high first medium second low last).
 """
 
 
 MAX_TOOL_ROUNDS = 6
+MAX_VALIDATION_REPAIRS = 2
 
 
 @dataclass(frozen=True)
@@ -97,7 +89,7 @@ def build_tools() -> list[dict[str, Any]]:
     return [
         {
             "name": "fetch_pr",
-            "description": "Fetch basic pull request metadata before reviewing code.",
+            "description": "Fetch basic metadata of a git hub pull request given repo owner, repo name, and pr number.",
             "input_schema": {
                 "type": "object",
                 "properties": shared_properties,
@@ -106,7 +98,7 @@ def build_tools() -> list[dict[str, Any]]:
         },
         {
             "name": "fetch_files",
-            "description": "Fetch changed files and patches for the pull request.",
+            "description": "Fetch changed files of a git hub pull request given repo owner, repo name, and pr number.",
             "input_schema": {
                 "type": "object",
                 "properties": shared_properties,
@@ -164,6 +156,27 @@ def _assistant_blocks_to_dicts(content_blocks: list[Any]) -> list[dict[str, Any]
     """Convert SDK content blocks into plain dictionaries for conversation history."""
 
     return [_serialize_content_block(block) for block in content_blocks]
+
+
+def _extract_changed_files(
+    result: Union[dict[str, Any], list[dict[str, Any]]]
+) -> list[str]:
+    """Collect changed file paths from a tool result when available."""
+
+    if not isinstance(result, list):
+        return []
+
+    changed_files: list[str] = []
+    for item in result:
+        if not isinstance(item, dict):
+            continue
+        filename = item.get("filename")
+        if isinstance(filename, str) and filename and filename not in changed_files:
+            changed_files.append(filename)
+    return changed_files
+
+
+
 
 
 def _extract_usage(message: Any) -> dict[str, Any]:
@@ -235,12 +248,14 @@ def _build_trace(
 
 def _run_tool(
     settings: Settings, tool_name: str, tool_input: dict[str, Any]
-) -> dict[str, Any] | list[dict[str, Any]]:
+) -> Union[dict[str, Any], list[dict[str, Any]]]:
     """Execute one tool call requested by the model."""
 
-    owner = tool_input["owner"]
-    repo = tool_input["repo"]
-    pr_number = tool_input["pr_number"]
+    # Note: If tools don't use owner/repo/pr_number in the future,
+    # this function should just pass **tool_input directly.
+    owner = tool_input.get("owner")
+    repo = tool_input.get("repo")
+    pr_number = tool_input.get("pr_number")
 
     if tool_name == "fetch_pr":
         return fetch_pr(settings, owner=owner, repo=repo, pr_number=pr_number)
@@ -249,6 +264,112 @@ def _run_tool(
 
     raise GitHubToolError(f"Unsupported tool requested by model: {tool_name}")
 
+
+def _validate_and_parse_review(
+    final_text: str,
+    changed_files_seen: list[str],
+) -> tuple[dict[str, Any], list[dict[str, Any]], str | None]:
+    """Parse the JSON output, validate files, and return (parsed_review, repair_events, error_message)."""
+    repair_events = []
+    
+    try:
+        review = parse_review_json(final_text)
+    except Exception as error:
+        repair_message = (
+            "Your previous response was invalid. "
+            f"Issue: {error}. "
+            "Return only one JSON object matching the requested schema. "
+            "Do not include prose or markdown fences."
+        )
+        return {}, repair_events, repair_message
+
+    invalid_finding_files = [
+        finding["file"]
+        for finding in review["findings"]
+        if changed_files_seen and finding["file"] not in changed_files_seen
+    ]
+    
+    if invalid_finding_files:
+        repair_message = (
+            "Your previous response used finding.file values that do not "
+            "exactly match the changed files returned by tools. "
+            f"Invalid files: {sorted(set(invalid_finding_files))}. "
+            f"Use only these exact changed paths in finding.file: {changed_files_seen}. "
+            "If a concern is about PR metadata rather than a changed file, put it in "
+            "the summary instead of a finding."
+        )
+        return review, repair_events, repair_message
+        
+    if len(review["findings"]) > 5:
+        repair_message = (
+            "Your previous response returned too many findings. "
+            "Return at most 5 findings, keeping only the strongest evidence-backed "
+            "issues from the tool output."
+        )
+        return review, repair_events, repair_message
+        
+    return review, repair_events, None
+
+def _process_tool_calls(
+    tool_uses: list[Any],
+    settings: Settings,
+    trace: dict[str, Any],
+    round_index: int,
+    changed_files_seen: list[str],
+) -> list[dict[str, Any]]:
+    """Execute all tools requested by the model and record results in the trace."""
+    tool_results_content: list[dict[str, Any]] = []
+    
+    for block in tool_uses:
+        trace["events"].append(
+            {
+                "timestamp": _utc_timestamp(),
+                "round": round_index,
+                "role": "assistant",
+                "type": "tool_use",
+                "tool_name": block.name,
+                "tool_use_id": block.id,
+                "tool_input": block.input,
+            }
+        )
+
+        result = _run_tool(settings, block.name, block.input)
+        result_summary = _summarize_tool_result(result)
+
+        for filename in _extract_changed_files(result):
+            if filename not in changed_files_seen:
+                changed_files_seen.append(filename)
+                
+        trace["tool_calls"].append(
+            {
+                "round": round_index,
+                "name": block.name,
+                "input": block.input,
+                "result_summary": result_summary,
+            }
+        )
+        trace["events"].append(
+            {
+                "timestamp": _utc_timestamp(),
+                "round": round_index,
+                "role": "tool",
+                "type": "tool_result",
+                "tool_name": block.name,
+                "tool_use_id": block.id,
+                "tool_input": block.input,
+                "result_summary": result_summary,
+                "result": result,
+            }
+        )
+        tool_results_content.append(
+            {
+                "type": "tool_result",
+                "tool_use_id": block.id,
+                "content": json.dumps(result),
+            }
+        )
+        
+    return tool_results_content
 
 def review_pull_request(
     settings: Settings, owner: str, repo: str, pr_number: int
@@ -269,21 +390,27 @@ def review_pull_request(
         owner=owner,
         repo=repo,
         pr_number=pr_number,
+        review_output_example=render_review_output_example(),
     )
     messages: list[dict[str, Any]] = [{"role": "user", "content": user_prompt}]
     trace = _build_trace(settings, owner, repo, pr_number, user_prompt)
 
     started_at = time()
+    repair_attempts = 0
+    changed_files_seen: list[str] = []
 
     try:
         for round_index in range(1, MAX_TOOL_ROUNDS + 1):
-            message = client.messages.create(
-                model=settings.anthropic_model,
-                max_tokens=1600,
-                system=SYSTEM_PROMPT,
-                tools=build_tools(),
-                messages=messages,
-            )
+            request_kwargs: dict[str, Any] = {
+                "model": settings.anthropic_model,
+                "max_tokens": settings.anthropic_max_tokens,
+                "temperature": settings.anthropic_temperature,
+                "system": SYSTEM_PROMPT,
+                "tools": build_tools(),
+                "messages": messages,
+            }
+
+            message = client.messages.create(**request_kwargs)
 
             assistant_blocks = _assistant_blocks_to_dicts(message.content)
             messages.append({"role": "assistant", "content": assistant_blocks})
@@ -303,7 +430,48 @@ def review_pull_request(
             ]
             if not tool_uses:
                 final_text = _extract_text_blocks(message.content)
-                review = parse_review_json(final_text)
+
+                try:
+                    review, _, repair_message = _validate_and_parse_review(final_text, changed_files_seen)
+                    if repair_message and repair_attempts < MAX_VALIDATION_REPAIRS:
+                        repair_attempts += 1
+                        messages.append({"role": "user", "content": repair_message})
+                        trace["events"].append(
+                            {
+                                "timestamp": _utc_timestamp(),
+                                "round": round_index,
+                                "role": "system",
+                                "type": "validation_repair",
+                                "reason": "validation_failed",
+                                "content": repair_message,
+                            }
+                        )
+                        continue
+                    elif repair_message:
+                        raise ValueError(repair_message)
+                except Exception as error:
+                    if repair_attempts < MAX_VALIDATION_REPAIRS:
+                        repair_attempts += 1
+                        repair_message = (
+                            "Your previous response was invalid. "
+                            f"Issue: {error}. "
+                            "Return only one JSON object matching the requested schema. "
+                            "Do not include prose or markdown fences."
+                        )
+                        messages.append({"role": "user", "content": repair_message})
+                        trace["events"].append(
+                            {
+                                "timestamp": _utc_timestamp(),
+                                "round": round_index,
+                                "role": "system",
+                                "type": "validation_repair",
+                                "reason": "invalid_final_output",
+                                "content": repair_message,
+                            }
+                        )
+                        continue
+                    raise
+
                 trace["rounds"] = round_index
                 trace["status"] = "success"
                 trace["latency_seconds"] = round(time() - started_at, 2)
@@ -321,50 +489,9 @@ def review_pull_request(
                 )
                 return ReviewRunResult(review=review, trace=trace)
 
-            tool_results_content: list[dict[str, Any]] = []
-            for block in tool_uses:
-                trace["events"].append(
-                    {
-                        "timestamp": _utc_timestamp(),
-                        "round": round_index,
-                        "role": "assistant",
-                        "type": "tool_use",
-                        "tool_name": block.name,
-                        "tool_use_id": block.id,
-                        "tool_input": block.input,
-                    }
-                )
-
-                result = _run_tool(settings, block.name, block.input)
-                result_summary = _summarize_tool_result(result)
-                trace["tool_calls"].append(
-                    {
-                        "round": round_index,
-                        "name": block.name,
-                        "input": block.input,
-                        "result_summary": result_summary,
-                    }
-                )
-                trace["events"].append(
-                    {
-                        "timestamp": _utc_timestamp(),
-                        "round": round_index,
-                        "role": "tool",
-                        "type": "tool_result",
-                        "tool_name": block.name,
-                        "tool_use_id": block.id,
-                        "tool_input": block.input,
-                        "result_summary": result_summary,
-                        "result": result,
-                    }
-                )
-                tool_results_content.append(
-                    {
-                        "type": "tool_result",
-                        "tool_use_id": block.id,
-                        "content": json.dumps(result),
-                    }
-                )
+            tool_results_content = _process_tool_calls(
+                tool_uses, settings, trace, round_index, changed_files_seen
+            )
 
             messages.append({"role": "user", "content": tool_results_content})
             trace["events"].append(
@@ -392,7 +519,9 @@ def review_pull_request(
         raise ReviewRunError(str(error), trace) from error
 
 
-def _summarize_tool_result(result: dict[str, Any] | list[dict[str, Any]]) -> dict[str, Any]:
+def _summarize_tool_result(
+    result: Union[dict[str, Any], list[dict[str, Any]]]
+) -> dict[str, Any]:
     """Create a compact summary for trace logs without duplicating full payloads."""
 
     if isinstance(result, dict):

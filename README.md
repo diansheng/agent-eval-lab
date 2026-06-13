@@ -132,6 +132,51 @@ python3 scripts/review_github_pr.py \
 
 The Week 2 path currently uses the MiniMax Anthropic-compatible setup from `.env`.
 
+## Automated Evals
+
+The repo now includes a minimal eval runner based on the design in [generic_eval_suite_design.md](file:///home/alchemist/code/agent%20learning/agent-eval-lab/generic_eval_suite_design.md).
+
+Included pieces:
+
+- YAML case manifests under `evals/cases/`
+- script judges under `evals/judges/scripts/`
+- suite manifests under `evals/suites/`
+- artifact-first run outputs under `evals/runs/`
+
+Run the smoke suite:
+
+```bash
+python scripts/evalctl.py run --suite evals/suites/smoke.yaml
+```
+
+Run the full regression suite:
+
+```bash
+python scripts/evalctl.py run --suite evals/suites/regression.yaml
+```
+
+Run one case directly:
+
+```bash
+python scripts/evalctl.py run --case evals/cases/pr_review/case_001/case.yaml
+```
+
+Each run writes:
+
+- `manifest.json`
+- `summary.json`
+- `summary.md`
+- per-case `stdout.txt`, `stderr.txt`, `execution.json`
+- normalized output and `judge_results.json`
+- `investigation.md` for failed cases
+
+The first version stays deterministic and uses script judges only:
+
+- `schema_valid`
+- `hallucination_check`
+- `finding_recall`
+- `max_findings`
+
 ## Output Shape
 
 The CLI prints a JSON object with:

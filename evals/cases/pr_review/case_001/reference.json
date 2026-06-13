@@ -1,0 +1,13 @@
+{
+  "required_matches": [
+    {
+      "file": "math_utils.py",
+      "keywords": [
+        "division",
+        "integer",
+        "floor"
+      ],
+      "min_keyword_hits": 1
+    }
+  ]
+}

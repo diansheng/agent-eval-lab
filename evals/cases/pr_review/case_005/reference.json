@@ -1,0 +1,14 @@
+{
+  "required_matches": [
+    {
+      "file": "payments.py",
+      "keywords": [
+        "exception",
+        "error",
+        "status",
+        "failed"
+      ],
+      "min_keyword_hits": 1
+    }
+  ]
+}

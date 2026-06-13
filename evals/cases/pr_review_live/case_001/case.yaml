@@ -1,0 +1,45 @@
+id: pr_review_live_case_001
+task_type: pr_review_live
+description: Review a real public PR with the Week 2 tool-calling reviewer and verify autonomous tool-grounded analysis
+tags: [week2, tool_calling, github_pr, live_case]
+difficulty: medium
+priority: high
+
+inputs:
+  owner: microsoft
+  repo: vscode
+  pr_number: 320628
+
+run:
+  command: '"{{python_executable}}" scripts/review_github_pr.py --owner {{inputs.owner}} --repo {{inputs.repo}} --pr-number {{inputs.pr_number}} --output-file "{{artifacts.output_json}}" --trace-file "{{artifacts.trace_json}}"'
+  cwd: "{{repo_root}}"
+  timeout_seconds: 180
+
+expected:
+  output_type: json_file
+  output_path: "{{artifacts.output_json}}"
+  trace_path: "{{artifacts.trace_json}}"
+  reference_file: reference.json
+
+judges:
+  - name: schema_valid
+    type: script
+    config:
+      script: evals/judges/scripts/schema_valid.py
+  - name: required_tools
+    type: script
+    config:
+      script: evals/judges/scripts/required_tools.py
+      required_tools:
+        - fetch_pr
+        - fetch_files
+      require_order: true
+  - name: hallucination_check
+    type: script
+    config:
+      script: evals/judges/scripts/hallucination_check.py
+  - name: max_findings
+    type: script
+    config:
+      script: evals/judges/scripts/max_findings.py
+      max_findings: 5

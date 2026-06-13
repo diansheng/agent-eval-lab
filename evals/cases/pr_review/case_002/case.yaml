@@ -1,0 +1,35 @@
+id: pr_review_case_002
+task_type: pr_review
+description: Avoid hallucinating issues on a refactor-only normalization change
+tags: [refactor, false_positive, python]
+difficulty: easy
+priority: high
+
+inputs:
+  diff_file: input.diff
+
+run:
+  command: '"{{python_executable}}" main.py --diff-file "{{inputs.diff_file}}" --output-file "{{artifacts.output_json}}"'
+  cwd: "{{repo_root}}"
+  timeout_seconds: 90
+  env:
+    LLM_PROVIDER: minimax_anthropic
+
+expected:
+  output_type: json_file
+  output_path: "{{artifacts.output_json}}"
+  reference_file: reference.json
+
+judges:
+  - name: schema_valid
+    type: script
+    config:
+      script: evals/judges/scripts/schema_valid.py
+  - name: hallucination_check
+    type: script
+    config:
+      script: evals/judges/scripts/hallucination_check.py
+  - name: max_findings
+    type: script
+    config:
+      script: evals/judges/scripts/max_findings.py

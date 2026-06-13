@@ -2,6 +2,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from typing import Optional
 
 # Allow running this script directly from the repo root.
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -14,7 +15,7 @@ from app.review_schema import ReviewFormatError
 from app.tools.github_tools import GitHubToolError
 
 
-def write_json(payload: dict, output_file: str | None) -> None:
+def write_json(payload: dict, output_file: Optional[str]) -> None:
     """Print JSON to stdout and optionally save it to a file."""
 
     rendered = json.dumps(payload, indent=2)
@@ -27,7 +28,7 @@ def write_json(payload: dict, output_file: str | None) -> None:
     print(rendered)
 
 
-def save_trace(trace: dict, trace_file: str | None) -> None:
+def save_trace(trace: dict, trace_file: Optional[str]) -> None:
     """Persist trace metadata if the caller asked for it."""
 
     if not trace_file:

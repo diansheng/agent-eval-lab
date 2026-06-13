@@ -1,0 +1,3 @@
+name: week2_smoke
+cases:
+  - evals/cases/pr_review_live/case_001/case.yaml

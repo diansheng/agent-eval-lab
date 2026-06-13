@@ -3,12 +3,17 @@ import json
 import os
 import sys
 from pathlib import Path
+from typing import Optional
 
 import anthropic
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from app.review_schema import ReviewFormatError, parse_review_json
+from app.review_schema import (
+    ReviewFormatError,
+    parse_review_json,
+    render_review_output_example,
+)
 
 
 SYSTEM_PROMPT = """You are a careful code reviewer.
@@ -30,19 +35,7 @@ Rules:
 USER_PROMPT_TEMPLATE = """Review this GitHub PR diff and produce review comments.
 
 Return a JSON object with this exact shape:
-{{
-  "summary": "short overall summary",
-  "findings": [
-    {{
-      "severity": "low | medium | high",
-      "title": "short finding title",
-      "file": "path/to/file.ext",
-      "comment": "concise review comment"
-    }}
-  ],
-  "confidence": "low | medium | high",
-  "needs_manual_review": true
-}}
+{review_output_example}
 
 Rules:
 - Return JSON only.
@@ -61,7 +54,7 @@ PR diff:
 PROVIDER_CHOICES = ("openai", "minimax_openai", "minimax_anthropic")
 
 
-def read_diff(diff_file: str | None) -> str:
+def read_diff(diff_file: Optional[str]) -> str:
     if diff_file:
         path = Path(diff_file)
         if not path.exists():
@@ -124,7 +117,7 @@ def validate_api_key(provider: str, api_key: str) -> None:
         )
 
 
-def write_output(review_json: dict, output_file: str | None) -> None:
+def write_output(review_json: dict, output_file: Optional[str]) -> None:
     rendered = json.dumps(review_json, indent=2)
 
     if output_file:
@@ -145,7 +138,10 @@ def review_with_openai_client(
             {"role": "system", "content": SYSTEM_PROMPT},
             {
                 "role": "user",
-                "content": USER_PROMPT_TEMPLATE.format(diff_text=diff_text),
+                "content": USER_PROMPT_TEMPLATE.format(
+                    diff_text=diff_text,
+                    review_output_example=render_review_output_example(),
+                ),
             },
         ],
         response_format={"type": "json_object"},
@@ -168,7 +164,10 @@ def review_with_anthropic_client(
         messages=[
             {
                 "role": "user",
-                "content": USER_PROMPT_TEMPLATE.format(diff_text=diff_text),
+                "content": USER_PROMPT_TEMPLATE.format(
+                    diff_text=diff_text,
+                    review_output_example=render_review_output_example(),
+                ),
             }
         ],
     )

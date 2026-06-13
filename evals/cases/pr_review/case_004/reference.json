@@ -1,0 +1,14 @@
+{
+  "required_matches": [
+    {
+      "file": "pagination.py",
+      "keywords": [
+        "page",
+        "pagination",
+        "count",
+        "off-by-one"
+      ],
+      "min_keyword_hits": 1
+    }
+  ]
+}

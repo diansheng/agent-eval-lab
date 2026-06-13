@@ -1,0 +1,14 @@
+diff --git a/pagination.py b/pagination.py
+index 7777777..8888888 100644
+--- a/pagination.py
++++ b/pagination.py
+@@ -1,7 +1,7 @@
+ def page_count(total_items, page_size):
+     if page_size <= 0:
+         raise ValueError("page_size must be positive")
+ 
+-    return (total_items + page_size - 1) // page_size
++    return total_items // page_size
+ 
+ 
+ def has_next_page(total_items, page, page_size):
