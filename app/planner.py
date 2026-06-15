@@ -13,7 +13,7 @@ from app.config import load_settings
 from app.agent import review_pull_request
 from app.tools.github_tools import fetch_files
 import anthropic
-from src.agent.state import AgentState, Issue
+from app.state import AgentState, Issue
 
 # ==========================================
 # WEEK 3: MULTI-STEP PLANNER

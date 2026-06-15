@@ -11,7 +11,7 @@ inputs:
   pr_number: 93249
 
 run:
-  command: '"{{python_executable}}" src/agent/planner.py --owner {{inputs.owner}} --repo {{inputs.repo}} --pr-number {{inputs.pr_number}} --output-file "{{artifacts.output_json}}" --trace-file "{{artifacts.trace_json}}"'
+  command: '"{{python_executable}}" app/planner.py --owner {{inputs.owner}} --repo {{inputs.repo}} --pr-number {{inputs.pr_number}} --output-file "{{artifacts.output_json}}" --trace-file "{{artifacts.trace_json}}"'
   cwd: "{{repo_root}}"
   timeout_seconds: 180
 
