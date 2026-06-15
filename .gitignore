@@ -6,3 +6,4 @@ log/
 logs/
 evals/runs/
 evals/reports/latest_summary.md
+data/
