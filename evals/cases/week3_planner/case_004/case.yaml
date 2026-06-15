@@ -1,0 +1,36 @@
+id: week3_case_004
+task_type: pr_review_multi_step
+description: Test the Week 3 multi-step planner against vscode PR 321097 (build PR)
+tags: [week3, multi_step, vscode, build]
+difficulty: medium
+priority: high
+
+inputs:
+  owner: microsoft
+  repo: vscode
+  pr_number: 321097
+
+run:
+  command: '"{{python_executable}}" app/planner.py --owner {{inputs.owner}} --repo {{inputs.repo}} --pr-number {{inputs.pr_number}} --output-file "{{artifacts.output_json}}" --trace-file "{{artifacts.trace_json}}"'
+  cwd: "{{repo_root}}"
+  timeout_seconds: 180
+
+expected:
+  output_type: json_file
+  output_path: "{{artifacts.output_json}}"
+  trace_path: "{{artifacts.trace_json}}"
+
+judges:
+  - name: schema_valid
+    type: script
+    config:
+      script: evals/judges/scripts/schema_valid.py
+  - name: verify_step_executed
+    type: script
+    config:
+      script: evals/judges/scripts/verify_step_executed.py
+  - name: max_findings
+    type: script
+    config:
+      script: evals/judges/scripts/max_findings.py
+      max_findings: 5

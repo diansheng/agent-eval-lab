@@ -1,13 +1,13 @@
 name: Week 3 Planner Evaluation Suite
-description: Run the multi-step planner test cases 5 times each to ensure consistency.
+description: Run the multi-step planner test cases 2 times each to ensure consistency across 5 distinct PRs.
 cases:
   - evals/cases/week3_planner/case_001/case.yaml
   - evals/cases/week3_planner/case_001/case.yaml
-  - evals/cases/week3_planner/case_001/case.yaml
-  - evals/cases/week3_planner/case_001/case.yaml
-  - evals/cases/week3_planner/case_001/case.yaml
   - evals/cases/week3_planner/case_002/case.yaml
   - evals/cases/week3_planner/case_002/case.yaml
-  - evals/cases/week3_planner/case_002/case.yaml
-  - evals/cases/week3_planner/case_002/case.yaml
-  - evals/cases/week3_planner/case_002/case.yaml
+  - evals/cases/week3_planner/case_003/case.yaml
+  - evals/cases/week3_planner/case_003/case.yaml
+  - evals/cases/week3_planner/case_004/case.yaml
+  - evals/cases/week3_planner/case_004/case.yaml
+  - evals/cases/week3_planner/case_005/case.yaml
+  - evals/cases/week3_planner/case_005/case.yaml
