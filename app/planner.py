@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 # Add project root to path so we can import the app folder
-project_root = Path(__file__).resolve().parents[2]
+project_root = Path(__file__).resolve().parents[1]
 if str(project_root) not in sys.path:
     sys.path.append(str(project_root))
 
