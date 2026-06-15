@@ -48,8 +48,8 @@ Rules:
 """
 
 
-MAX_TOOL_ROUNDS = 6
-MAX_VALIDATION_REPAIRS = 2
+MAX_TOOL_ROUNDS = 12
+MAX_VALIDATION_REPAIRS = 3
 
 
 @dataclass(frozen=True)
@@ -103,6 +103,20 @@ def build_tools() -> list[dict[str, Any]]:
                 "type": "object",
                 "properties": shared_properties,
                 "required": ["owner", "repo", "pr_number"],
+            },
+        },
+        {
+            "name": "search_knowledge_base",
+            "description": "Search the project documentation to answer questions about architecture, past bugs, or setup.",
+            "input_schema": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The search query to look up in the knowledge base.",
+                    }
+                },
+                "required": ["query"],
             },
         },
     ]
@@ -246,10 +260,27 @@ def _build_trace(
     }
 
 
+_rag_retriever = None
+
+def _get_retriever():
+    global _rag_retriever
+    if _rag_retriever is None:
+        from app.rag.retriever import Retriever
+        _rag_retriever = Retriever()
+    return _rag_retriever
+
 def _run_tool(
     settings: Settings, tool_name: str, tool_input: dict[str, Any]
 ) -> Union[dict[str, Any], list[dict[str, Any]]]:
     """Execute one tool call requested by the model."""
+
+    if tool_name == "search_knowledge_base":
+        query = tool_input.get("query")
+        if not query:
+            raise ValueError("search_knowledge_base requires a 'query' parameter.")
+        retriever = _get_retriever()
+        results = retriever.search(query)
+        return {"results": results}
 
     # Note: If tools don't use owner/repo/pr_number in the future,
     # this function should just pass **tool_input directly.
