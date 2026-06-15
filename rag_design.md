@@ -4,9 +4,10 @@ This document details the implementation of the Retrieval-Augmented Generation (
 
 ## 1. Embeddings Strategy
 
-*   **Provider**: OpenAI (Standard industry baseline, easily interchangeable with Voyage AI / Anthropic if needed).
-*   **Model**: `text-embedding-3-small`
+*   **Provider**: MiniMax
+*   **Model**: `embo-01`
 *   **Vector Dimension**: `1536`
+*   **Implementation**: Rather than relying on OpenAI-compatible endpoint hacks which can have payload shape mismatches, the embedder uses Python's `requests` library to interface directly with the MiniMax native `https://api.minimax.chat/v1/embeddings` endpoint.
 *   **Batching**: Implemented `get_embeddings_batch()` to process multiple text chunks in a single API call, reducing latency and network overhead.
 
 ## 2. Document Processing and Chunking

@@ -1,39 +1,58 @@
 import os
-from openai import OpenAI
+import requests
+from dotenv import load_dotenv
 
-# Initialize the client. 
-# It will automatically pick up OPENAI_API_KEY from the environment.
-client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
-    base_url=os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
-)
+load_dotenv()
 
-def get_embedding(text: str, model: str = "text-embedding-3-small") -> list[float]:
+MINIMAX_API_KEY = os.environ.get("MINIMAX_API_KEY", "")
+MINIMAX_API_URL = "https://api.minimax.chat/v1/embeddings"
+
+def get_embedding(text: str, model: str = "embo-01") -> list[float]:
     """
-    Retrieves the embedding vector for a single string.
+    Retrieves the embedding vector for a single string using MiniMax Native API.
     """
-    # Replace newlines as recommended by OpenAI for older models, 
-    # though less strictly necessary for v3 models.
     text = text.replace("\n", " ")
     
-    response = client.embeddings.create(
-        input=[text],
-        model=model
-    )
-    return response.data[0].embedding
+    headers = {
+        "Authorization": f"Bearer {MINIMAX_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "model": model,
+        "texts": [text],
+        "type": "db"
+    }
+    
+    response = requests.post(MINIMAX_API_URL, headers=headers, json=data)
+    response.raise_for_status()
+    
+    result = response.json()
+    if "vectors" not in result or not result["vectors"]:
+        raise ValueError(f"Failed to get embedding from MiniMax: {result}")
+        
+    return result["vectors"][0]
 
-def get_embeddings_batch(texts: list[str], model: str = "text-embedding-3-small") -> list[list[float]]:
+def get_embeddings_batch(texts: list[str], model: str = "embo-01") -> list[list[float]]:
     """
-    Retrieves embedding vectors for a list of strings in a single API call.
+    Retrieves embedding vectors for a list of strings in a single API call using MiniMax.
     """
-    # Clean the texts
     texts = [t.replace("\n", " ") for t in texts]
     
-    response = client.embeddings.create(
-        input=texts,
-        model=model
-    )
+    headers = {
+        "Authorization": f"Bearer {MINIMAX_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "model": model,
+        "texts": texts,
+        "type": "db"
+    }
     
-    # Sort the results by index to ensure they match the input order
-    sorted_data = sorted(response.data, key=lambda x: x.index)
-    return [item.embedding for item in sorted_data]
+    response = requests.post(MINIMAX_API_URL, headers=headers, json=data)
+    response.raise_for_status()
+    
+    result = response.json()
+    if "vectors" not in result or not result["vectors"]:
+        raise ValueError(f"Failed to get batch embeddings from MiniMax: {result}")
+        
+    return result["vectors"]

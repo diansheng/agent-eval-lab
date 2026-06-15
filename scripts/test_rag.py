@@ -49,9 +49,12 @@ def test_search(query: str):
         print("-" * 40)
 
 if __name__ == "__main__":
-    # Check if OPENAI_API_KEY is set
-    if not os.environ.get("OPENAI_API_KEY"):
-        print("WARNING: OPENAI_API_KEY is not set. The embedding generation will likely fail.")
+    from dotenv import load_dotenv
+    load_dotenv()
+    
+    # Check if MINIMAX_API_KEY is set
+    if not os.environ.get("MINIMAX_API_KEY"):
+        print("WARNING: MINIMAX_API_KEY is not set. The embedding generation will likely fail.")
         
     print("Choose an action:")
     print("1) Build Vector Index")
