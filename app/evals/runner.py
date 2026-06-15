@@ -325,12 +325,17 @@ def _write_investigation_note(case_dir: Path, case_result: dict[str, Any]) -> No
     (case_dir / "investigation.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def run_case(case_path: Union[str, Path], run_root: Path, run_id: str) -> dict[str, Any]:
+def run_case(case_path: Union[str, Path], run_root: Path, run_id: str, repetition_index: int = 0) -> dict[str, Any]:
     """Run one case, save artifacts, and return a structured result summary."""
 
     case_file = Path(case_path).resolve()
     case_data = _load_yaml(case_file)
-    case_name = f"{case_data.get('task_type', 'task')}__{case_data['id']}"
+    
+    original_id = str(case_data.get('id', 'unknown'))
+    effective_id = f"{original_id}_{repetition_index}" if repetition_index > 0 else original_id
+    case_data["id"] = effective_id
+    
+    case_name = f"{case_data.get('task_type', 'task')}__{effective_id}"
     case_dir = run_root / "cases" / case_name
     case_dir.mkdir(parents=True, exist_ok=True)
 
@@ -544,7 +549,14 @@ def run_cases(case_paths: list[Union[str, Path]], suite_name: str) -> dict[str, 
     run_root = REPO_ROOT / "evals" / "runs" / run_id
     run_root.mkdir(parents=True, exist_ok=True)
 
-    case_results = [run_case(case_path, run_root, run_id) for case_path in case_paths]
+    case_results = []
+    case_counts = {}
+    for case_path in case_paths:
+        case_file_str = str(Path(case_path).resolve())
+        count = case_counts.get(case_file_str, 0)
+        case_counts[case_file_str] = count + 1
+        case_results.append(run_case(case_path, run_root, run_id, repetition_index=count))
+        
     summary = _build_summary(run_id, suite_name, case_results)
 
     manifest = {
