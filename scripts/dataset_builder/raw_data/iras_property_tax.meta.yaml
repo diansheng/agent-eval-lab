@@ -1,0 +1,4 @@
+name: iras_property_tax
+source: IRAS
+type: html
+url: https://www.iras.gov.sg/taxes/property-tax/property-owners/property-tax-rates
