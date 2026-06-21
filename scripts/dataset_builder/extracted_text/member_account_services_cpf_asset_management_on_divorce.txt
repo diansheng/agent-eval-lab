@@ -1,0 +1,260 @@
+CPFB | Division of CPF assets
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Account services
+How CPF-related assets are divided in a divorce
+Learn how CPF savings, investments and other CPF-related assets are divided as part of divorce.
+Facebook
+Telegram
+WhatsApp
+Email
+LinkedIn
+X
+Notice
+Our CPF hotlines are temporarily unavailable due to technical difficulties related to Singtel. We apologise for any inconvenience caused. For urgent assistance, please reach us through our
+Text Us
+service, and we will respond as soon as we can.
+Overview
+Things to note
+Process
+Follow up
+Resources
+FAQs
+Overview
+Things to note
+Process
+Follow up
+Resources
+FAQs
+Use ClauseComposer to draft CPF clauses
+A tool to help you draft clauses relating to the division of CPF-related assets in a divorce so that they are in line with CPF legislation. You may use the clauses for reference when preparing your draft divorce court order.
+Transfer of monies
+Transfer of property
+https://cpf.gov.sg/ClauseMoney
+false
+Use submission wizard to check if you need to notify us
+Not all court orders to divide CPF-related assets require you to notify CPF Board. Use our submission wizard to find out.
+Use submission wizard
+https://cpf.gov.sg/CourtOrderGuide
+false
+Use these forms to submit court orders
+To instruct the CPF Board to take action on the division of CPF-related assets in a divorce, submit all relevant court orders.
+Submit yourself
+Submit via lawyer
+https://cpf.gov.sg/DMACourtOrderMbr
+false
+Overview
+Types of CPF-related assets
+From here on, "Court" refers to either the Family Justice Courts or the Syariah Court Singapore.
+1
+CPF savings
+CPF savings may be considered as matrimonial assets. It is up to the Court to decide whether 1 party is entitled to any part of the other party's CPF savings, taking into account the matters set out in section 112 of the Women's Charter / section 52(3)(d) of the Administration of Muslim Law Act.
+false
+2
+Property bought using CPF savings
+The Court may order a division of your matrimonial property via some of these methods:
+Sale or part-share sale
+Transfer to ex-spouse with full, partial or no refund to the outgoing owner's CPF accounts
+Retention by one party
+Surrender
+false
+3
+CPF investments
+The Court may order a division of CPF-related investments by ordering an ownership transfer of investment from 1 party to the receiving party.
+Another method is to order 1 party to sell the investments. The proceeds are refunded to the owner's CPF Investment Schemes' accounts, then to the respective CPF accounts. Finally, the Board transfers the amount directly to the receiving party's CPF accounts, or pays the receiving party in cash.
+false
+4
+CPF LIFE premiums and payouts
+If 1 party has started receiving monthly payouts from their CPF LIFE plan, the Court may order a payment from these payouts to the receiving party instead.
+Alternatively, the Court may order the Board to make a refund of the CPF LIFE premium to their Retirement Account. Depending on the court order, the Board transfers the amount to the receiving party's CPF accounts, or pays the amount to the receiving party in cash.
+false
+Things to note
+Before you apply to the Courts
+Here are some things you should consider before you seek a court order for divorce.
+If you're near age 55 or older
+Closure of Special Account
+Since 19 January 2025, CPF members’ Special Accounts are closed if members are aged 55 and above. If you turn age 55 after 19 January 2025, your Special Account will be closed on your 55th birthday.
+If the CPF Board receives a court order for it to make a transfer or payment from your Special Account, the Board will not be able to carry out such a court order once your Special Account is closed. In such a scenario, you and your ex-spouse may wish to consider settling the matter privately.
+Alternatively, parties may apply to the Court to vary the court order, so that the transfer or payment is made from a different CPF account. We strongly recommend parties seek legal advice so that both of you understand the application process and its implications.
+false
+Division of CPF savings
+If CPF savings are to be divided as part of the divorce, the court order will need to specify how this will be done:
+Transfer order
+Under a transfer order, the CPF Board transfers savings directly from 1 party's CPF accounts to the receiving party's CPF accounts. Generally, money is transferred to corresponding CPF accounts: from Ordinary Account to Ordinary Account, MediSave Account to MediSave Account, and so on.
+For a transfer order to work, the receiving party must be a Singapore Citizen or Permanent Resident. The receiving party can use the CPF savings immediately for approved CPF schemes such as housing and investment. They may also withdraw the savings when they are eligible.
+Transfer orders can be enforced even if the party transferring the savings has yet to meet their Full Retirement Sum.
+Charging order
+Under a charging order, the CPF Board pays 1 party's CPF savings to the receiving party in cash. A charging order is generally possible only if the paying party is aged 55 or above, and eligible to withdraw their CPF savings.
+How the court order is executed depends on the receiving party's citizenship status:
+If the receiving party is a Singapore Citizen or Permanent Resident:
+Generally, the charge can only be imposed on savings in the paying party’s Ordinary Account. Only withdrawable savings in the paying party’s Ordinary Account (after setting aside the Full Retirement Sum in the Retirement Account) can be paid to the receiving party.
+If the receiving party is a non-Singapore Citizen or Permanent Resident:
+The charge can be imposed on all of the paying party’s CPF accounts’ savings. There's no requirement that the paying party must meet the Full Retirement Sum for the payment to be made.
+false
+Division of property
+Court order on the division of property
+If you and your ex-spouse jointly own a property that was paid for using CPF savings, the court order may direct either:
+a sale of the property and the sales proceeds divided, or
+a transfer of one party’s ownership to the other party.
+Checking your required CPF refund
+Before finalising the court order, both parties should check the exact amount each person needs to refund to their respective CPF accounts when the property is sold or transferred. This step is important as it ensures that the CPF refunds are properly considered when deciding how the sale proceeds will be divided.
+To find out the exact refund amount, log in to your
+Home ownership dashboard
+and review the “What Happens If” section. It is crucial to check this information because, in
+certain cases
+, your required CPF refund may be less than the principal (P) and accrued interest (I) you have withdrawn for your property — also known as “P+I”.
+Considerations if you are taking over the property
+Typically, as the remaining owner, you will need to refund the P+I that your ex-spouse used from their CPF account for the property. If your ex-spouse is 55 years or older and has pledged the property to set aside their retirement sum, you must also refund the pledged amount.
+You can make the required refund to your ex-spouse’s CPF account using your CPF Ordinary Account savings and/or cash.
+If you need to pay monthly housing loan instalments, ensure you have sufficient financial resources before deciding to retain the property.
+Buying your next home
+If you need to buy another home after the divorce, you can use the
+Home Purchase Planner
+to estimate a home purchase budget based on your current financial and housing situation.
+false
+Process
+How the process works
+Step 1: Apply to the Courts
+Prepare and file the matrimonial application for divorce with the Courts.
+If you intend to seek a division of your spouse's CPF-related assets, the court order must include clauses specifying how they should be divided. Ensure that the clauses should be for division of assets you have acquired while married, and they cannot be used towards settling maintenance, personal claims or debts.
+false
+Suggested clauses
+You or your lawyers may refer to the Board's suggested clauses to draft your court order. These can be found in the Courts' websites. Using these suggested clauses ensures that your court order would be in line with CPF legislations.
+Suggested clauses in order of court for transfer of monies in CPF accounts (PDF, 0.2MB)
+Suggested clauses in order of court for charging of monies in CPF accounts (PDF, 0.3MB
+)
+Suggested clauses for disclosure orders (PDF, 0.1MB)
+Suggested standard clauses to include in injunction orders (CPF Assets) (PDF, 0.1MB)
+Unsure about which clauses to include in your court order? To ensure that your court order aligns with CPF legislation and benefits from faster processing of the court order by the CPF Board,
+use ClauseComposer to draft the right CPF clauses for your court order.
+false
+Step 2: After you receive the court order
+If the court order involves non-property CPF-related assets, or a property transfer without a full CPF refund
+Court orders involving the division of non-property CPF assets should be submitted to the Board. Orders for the transfer of property with zero or partial CPF refunds should also be submitted.
+https://cpf.gov.sg/DMACourtOrderMbr
+false
+Submit court order yourself
+Submission through lawyer
+If the court order involves only a property disposal with full CPF refund
+If the court order only involves a property disposal with full CPF refund to CPF accounts, you do not need to submit the court order to us. The Board will not be replying to such submissions. Please refer to our
+FAQ
+for information on housing refund rules and property matters.
+For HDB flats:
+Inform HDB that you have received the court's decision. No consent letter from the CPF Board is needed.
+For private properties:
+You can work with your conveyancing lawyer directly.
+Not sure if you need to submit a court order to the CPF Board? Use the
+submission wizard
+to find out.
+false
+Step 3: Executing the court order
+To protect the confidentiality of your information, we will only send account-specific information to the contact details (i.e. email address, mobile number) registered in
+Account settings
+. For court orders submitted by a lawyer from a law firm or Legal Aid Bureau, we will correspond with the lawyer by email.
+false
+Division of CPF savings
+The CPF Board will transfer or pay as soon as practicable, based on the timing specified in the court order, e.g. upon Final Judgement, upon refunds from sale of property. immediately, etc.
+Division of property
+If the court order specifies that your matrimonial property to be disposed, please contact directly the HDB or your conveyancing lawyer.
+false
+Division of investments under the CPF Investment Scheme
+If the court order directs you to transfer or sell your CPF investments, please approach your agent bank to sell your investments, then
+instruct us to transfer the sales proceeds
+.
+Follow up
+What else should you do after obtaining your court order
+Review your CPF nominations
+Divorce does not automatically revoke your existing CPF nomination.
+If your ex-spouse is one of your CPF nominees, consider making a new nomination to redistribute your CPF savings if necessary.
+https://www.cpf.gov.sg/member/tools-and-services/forms-e-applications/make-a-cpf-nomination?deeplink=true
+false
+Make CPF nomination
+Stop recurring CPF top-ups to your ex-spouse
+Top-ups are only allowed for family members, and divorce does not automatically terminate any automatic recurring top-ups you may have arranged.
+You will need to instruct your bank to terminate GIRO arrangements to top-up your ex-spouse’s CPF accounts.
+https://form.gov.sg/5ed0a5e8de28b70011650031
+false
+Terminate GIRO arrangements
+Appoint new beneficiaries for term insurance
+Divorce does not revoke an existing Dependants' Protection Scheme (DPS) nomination.
+Please submit a new nomination form to the DPS insurer if you wish to change the beneficiaries of your DPS cover.
+https://www.greateasternlife.com/sg/en/personal-insurance/our-products/life-insurance/dependants-protection-scheme.html
+false
+Go to Great Eastern Life website
+Review administrative matters
+Update your contact details
+If you share the same contact details as your ex-spouse, please update your mobile number and, or email address via the Account settings page.
+https://www.cpf.gov.sg/member/ds/account-settings
+false
+Go to Account settings
+Removal of your ex-spouse's access to Child dashboard
+If you have been granted sole custody of any of your children, your ex-spouse’s access to the relevant child dashboard will be revoked. Please write to us to submit a request and attach the court order as a supporting document, if this has not been earlier submitted to the Board.
+https://www.cpf.gov.sg/writetous
+false
+Write to us
+Update Home Protection Scheme coverage
+Adjust or terminate your Home Protection Scheme coverage
+You may need to adjust your Home Protection Scheme (HPS) cover to ensure that you are adequately covered for 100% of your outstanding housing loan. If your flat was directed to be sold or disposed under the court order, your HPS cover will be terminated.
+https://www.cpf.gov.sg/HPS45
+false
+Adjust Home Protection Scheme cover
+Cancel standing orders for payment of your ex-spouse’s premium shortfall
+If you have instructed us to use your CPF savings to pay for shortfalls in your ex-spouse’s annual HPS premium, please write to us to cancel the standing order.
+https://cpf.gov.sg/writetous
+false
+Write to us
+Stop insurance premiums and MediSave deductions
+Upon divorce, you and your ex-spouse will no longer be eligible to withdraw each other’s MediSave Account savings for healthcare purposes. You need to revoke all existing standing authorisations to use your MediSave Account savings to pay for your ex-spouse’s treatments and insurance premiums.
+false
+MediShield Life, CareShield Life and ElderShield premiums
+If you are paying for your ex-spouse’s MediShield Life premiums via GIRO, please approach your bank to terminate the GIRO payment.
+https://www.cpf.gov.sg/member/tools-and-services/forms-e-applications/change-payer-for-medishield-life-careshield-life-eldershield
+false
+Change payer for MediShield Life, CareShield Life and ElderShield
+MediSave withdrawals
+If you had previously made a standing authorisation to use your MediSave to pay for your ex-spouse’s treatments, please approach the medical institution to revoke your authorisation.
+false
+MediSave Care
+To stop MediSave Care withdrawals from your MediSave Account for your ex-spouse, write to
+enquiries@aic.sg
+.
+false
+Others
+Please approach your private Insurer to stop payments under these schemes:
+CareShield Life Supplements
+ElderShield Supplements
+Integrated Shield Plan
+false
+Resources
+Need more information?
+Family Justice Courts
+Understand the requirements for getting a divorce in Singapore.
+Syariah Court Singapore
+Find out the divorce process at Syariah Court.
+Legal Aid Bureau
+Discover support for legal matters, from applying for legal aid to navigating matrimonial asset division upon divorce.
+Law Society
+Seek legal guidance for divorce and family matters, and find a lawyer from the directory.
+Family Assist
+Explore resources on strengthening marriage and managing the divorce proceedings on the Ministry of Social and Family Development website.
+Housing Options Explorer for HDB flat owners
+Check your eligibility to sell or retain your flat, and the finances required.
+Change in flat ownership (not through sale) arising from divorce
+HDB rules and procedures arising from a change in flat ownership.
+Show all
+FAQs
+Common questions
+Which court orders are required to be submitted to the CPF Board for the purpose of division of CPF assets in a divorce?
+How long will CPF Board take to give effect to the court order?
+View all
+https://www.cpf.gov.sg/service/sub-categories?category=P_M_OS
+false

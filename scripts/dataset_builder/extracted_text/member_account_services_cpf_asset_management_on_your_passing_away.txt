@@ -1,0 +1,179 @@
+CPFB | Paying out CPF when you pass away
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Account services
+Distribution of CPF savings upon one's passing
+Learn more about distribution and withdrawal of CPF savings upon the demise of a member.
+Facebook
+Telegram
+WhatsApp
+Email
+LinkedIn
+X
+Upon Demise
+Distribution
+Things to note
+Resources
+FAQs
+Articles
+Upon Demise
+Distribution
+Things to note
+Resources
+FAQs
+Articles
+Upon Demise
+Reporting of Death
+Deceased was a Singapore Citizen or Permanent Resident
+A death in Singapore will be automatically registered with ICA once a doctor certifies the death online. If the death occurred overseas, please
+report the death to ICA
+.
+false
+ICA will inform CPF Board of the death, hence there is no need for you to inform us. We will contact you to withdraw the deceased’s savings only if you are one of the deceased’s nominees.
+Deceased was a foreigner with a CPF account
+You will need to report the death to CPF Board.
+https://www.cpf.gov.sg/service/article/how-do-i-report-the-death-of-a-foreigner-who-was-a-cpf-member
+false
+Find out how to report the death
+Distribution
+How CPF savings are distributed
+Deceased has a valid CPF nomination
+CPF savings will be distributed to the nominee(s). We will contact the nominees(s) within 10 working days after we are informed of the member's demise. The notification will include instructions on how to withdraw the savings from the deceased's CPF account.
+https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination
+false
+Making a nomination is important, easy and ensures that your CPF savings will be distributed according to your wishes, at no cost, when you pass away.
+CPF Nomination Scheme
+Deceased did not have a valid CPF nomination
+CPF savings will be transferred to the Public Trustee Office for distribution in line with the Singapore’s intestacy laws:
+Intestate Succession Act if deceased is non-Muslim.
+Administration of Muslim Law Act if deceased is Muslim.
+false
+How nominees receive the CPF savings
+CPF savings will be automatically disbursed to nominees who meet the eligibility criteria
+Automatic Disbursement
+The CPF savings will be automatically paid to you, if you meet the following criteria, subject to additional eligibility requirements:
+Are a Singapore Citizen or Permanent Resident
+Aged 18 and above
+Have a local residential address
+Have a registered bank account with CPF Board
+No withdrawal application is required.
+false
+If you do not qualify for automatic disbursement
+You will receive instructions on how to
+submit the withdrawal application (with Singpass)
+in our notification to you.
+false
+If you are not a Singapore Citizen on Permanent Resident,
+find out how to apply
+for the withdrawal.
+What gets distributed upon a member’s death
+Find out what will get distributed when a member passes away.
+1
+Savings in Ordinary, Special, MediSave and Retirement Accounts
+All savings in the deceased person’s CPF accounts will be distributed.
+false
+2
+Discounted Singtel shares (SDS)
+A deceased member’s SDS will be distributed to the nominee(s) in the proportion indicated in the deceased member’s CPF nomination. The shares will either be transferred to the nominee’s personal CDP Account or sold, based on the nominee’s instructions.
+https://www.cpf.gov.sg/service/article/what-happens-to-a-deceased-member-s-discounted-singtel-shares
+false
+Learn more
+3
+CPF LIFE premium balance
+If the deceased had a CPF LIFE plan, any CPF LIFE premium balance will be distributed.
+false
+Quick tip
+If you are a nominee of the deceased member, you can view the
+deceased member's CPF account information
+on the
+Deceased CPF Member Dashboard
+by logging in with your Singpass. The dashboard will generally be available to nominee(s) 10 working days after the Board is notified of the member's death. You may download a copy of the deceased member's CPF account statement for your records.
+false
+If there are ongoing investigations on a deceased member's CPF nomination that would require additional time, we will notify the nominees when they can access the dashboard.
+Things to note
+Other policies
+Using MediSave to pay final hospitalisation bill
+Member had signed a Medical Claims Authorisation Form (MCAF)
+No action needed, MediSave and MediShield Life/Integrated Shield Plan will be automatically used to pay the final hospitalisation bill.
+false
+If no MCAF was signed
+The deceased’s spouse, parents, child (aged 21 and above), or donee/deputy can sign the form at the hospital within two weeks of the member’s demise. This should be done as soon as possible, as hospitals have to submit a MediSave claim before the member’s CPF savings are distributed.
+If there’s no immediate family or donee/deputy, other relatives of the deceased can sign the MCAF, with the approval of the Ministry of Health. The hospital can help you obtain this approval.
+false
+Withdrawing or claiming from other schemes
+Claiming investments under CPF Investment Scheme (CPFIS)
+Administrators/executors will need to contact the respective product provider (i.e. financial institution that sells investments) or agent bank (DBS, OCBC or UOB) to claim these investments and any cash balance in the CPF Investment Account.
+false
+Claiming under the Dependants’ Protection Scheme (DPS)
+If the deceased was insured under the DPS, CPF Board will inform the insurer (Great Eastern Life). The insurer will then send claim application details to the DPS nominee(s)'s / deceased's address.
+https://www.greateasternlife.com/sg/en/personal-insurance/our-products/life-insurance/dependants-protection-scheme.html
+false
+Great Eastern Life
+Housing matters
+Home Protection Scheme (HPS)
+If an outstanding housing loan was insured by the deceased under the HPS, we will automatically assess the deceased’s claim eligibility once CPF Board is notified of the member’s death by the Immigration and Checkpoints Authority (ICA).
+CPF Board will inform the co-owner(s) or next-of-kin of the outcome and if additional information is required.
+When the claim is approved, the HPS claim benefits will be paid directly to the mortgagee, to settle the outstanding housing loan, up to the insured sum.
+false
+Waiver of CPF used for property
+If the deceased had used CPF savings to buy a property, refund of the housing usage is waived automatically. The property will not be covered by CPF nomination and instead form part of the estate.
+The deceased’s share in a property with a joint tenancy automatically passes to the remaining owner(s).
+If there’s a tenancy-in-common or property was solely owned, the deceased's share will be inherited under their will if they had written one. Otherwise, intestacy laws will apply.
+false
+Education loans
+Waiver for CPF Education Loan Scheme
+If the deceased used CPF savings under the CPF Education Loan Scheme, there’s no need to repay either the CPF savings used or any accrued interest.
+false
+Terminating healthcare policies
+MediShield Life/Integrated Shield Plan, CareShield Life
+If the deceased was insured under MediShield Life/Integrated Shield Plan, the respective cover automatically ends. We will refund any unused premiums to the payer's MediSave Account. The unused period is the number of days remaining in the policy year from the date the member passed, excluding the day of their demise.
+false
+If the deceased was insured under CareShield Life, refunds to the payer's MediSave Account will be made only if the insured passes away within the first 60 days of the first policy year.
+Resources
+Need more information?
+Losing a loved one (PDF, 432KB)
+Your guide to the process of claiming the CPF savings of a loved one.
+Show all
+FAQs
+Common questions
+What happens to the CPF savings if the nominee passed away before he could receive the CPF savings of the deceased member?
+How will the deceased member’s CPF savings be distributed to a nominee who is certified to lack mental capacity permanently?
+View all
+https://www.cpf.gov.sg/service/sub-categories?category=P_M_AS
+false
+Articles
+Related Reads
+Financial planning
+3 simple steps to making a CPF nomination
+Learn how to make a CPF nomination with these quick steps.
+02 Jun 2025 • 8 minute read
+Financial planning
+What does your CPF nomination cover?
+A CPF nomination ensures your CPF savings are passed on quickly to your loved ones upon your passing — but which assets does it cover?
+30 May 2025 • 5 minute read
+Financial planning
+Why you should make a CPF nomination even if you are below 40
+Want to ensure your CPF savings go to the intended people? Here's what you should do.
+18 Aug 2025 • 3 minute read
+Financial planning
+3 simple steps to making a CPF nomination
+Learn how to make a CPF nomination with these quick steps.
+02 Jun 2025 • 8 minute read
+Financial planning
+What does your CPF nomination cover?
+A CPF nomination ensures your CPF savings are passed on quickly to your loved ones upon your passing — but which assets does it cover?
+30 May 2025 • 5 minute read
+Financial planning
+Why you should make a CPF nomination even if you are below 40
+Want to ensure your CPF savings go to the intended people? Here's what you should do.
+18 Aug 2025 • 3 minute read
+View all

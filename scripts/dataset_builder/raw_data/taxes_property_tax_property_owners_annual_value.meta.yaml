@@ -1,0 +1,4 @@
+name: taxes_property_tax_property_owners_annual_value
+source: IRAS
+type: html
+url: https://www.iras.gov.sg/taxes/property-tax/property-owners/annual-value

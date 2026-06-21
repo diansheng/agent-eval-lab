@@ -1,0 +1,391 @@
+CPFB | CPF housing usage calculator
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+Your page is loading
+One moment please.
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Home Ownership
+CPF housing usage calculator
+Estimate how much Ordinary Account savings you can use for a property purchase
+You can specify up to 3 co-owners in this calculator. The amount of Ordinary Account savings you can use to buy a property depends on your age, property type, and loan type.
+The results of this calculator are estimates. If you have an existing property and want to find out how much more Ordinary Account savings you can use for your housing needs,  log in to view your
+Home ownership dashboard
+.
+Please note that the calculator is not applicable:
+if your property is an HDB studio apartment or a short-lease 2-room flexi flat, and/or
+if your transaction is not conducted at and above market valuation. For undervalued property purchases, the applicable housing withdrawal limits will be assessed and determined when we receive detailed information.
+Important notes
+You will require your co-owners' date of birth, property purchase date, valuation price, and lease-related information to proceed.
+All fields are mandatory unless marked optional.
+I have read and accepted the
+Terms of Use
+.
+Start
+The Contents of this Website are provided on an "as is" and “as available” basis without warranties of any kind, and are of a general nature. The Contents are made available for your general information only. While every effort is made to ensure that the Contents herein are consistent with existing law and practice, you are advised to refer to the relevant legislation to be certain of your legal entitlements and obligations and should seek professional advice at all times before making any decision based on any such information or materials. Neither CPFB nor any third party content providers is responsible for any errors or omissions, or for the results obtained from the use of the information and material in this Website or the tools contained in this Website.​
+Neither CPFB nor any third party content providers warrants:
+(a) the truth, accuracy, adequacy, reliability, completeness, reasonableness, currency or timeliness, of the Contents contained in or accessed through this Website and expressly disclaims liability for any errors in or omissions from, the Contents of the Website; and
+(b) that the Contents available through this Website or any functions associated therewith will be uninterrupted or error-free, or that defects will be corrected or that this Website and the server is and will be free of all viruses and/or other malicious, destructive or corrupting code, programme or macro.​
+No warranty of any kind, express, implied or statutory (including but not limited to, warranties of title, merchantability, satisfactory quality, non-infringement of third-party intellectual property rights, fitness for a particular purpose and freedom from computer virus), is given in conjunction with the Contents of this Website, the tools contained in this Website or this Website in general.
+In no event shall CPFB or any third party content providers be liable for damages, expenses, costs or loss of any kind (including without limitation, any direct, or indirect, special, incidental or consequential damages, loss of profits or loss of opportunity) howsoever caused as a result (direct or indirect) of, or in connection with, your use of this Website, or reliance on any information, materials, tools or online services provided in or available from this Website, regardless of the form of action.
+Under no circumstances shall CPFB or any third party content providers be liable for any failure of performance, system, server or connection failure, interruption, defect, error, omission, delay in operation or transmission, breach of security, malicious code, computer virus or inability or unavailability to use or access in connection with your accessing this Website, tools, and / or online services even if CPFB or the third party content providers had been advised as to the possibility of the above.​
+CPF housing usage calculator
+1
+of
+4
+Profile selection
+1
+Profile selection
+2
+Personal information
+3
+Property information
+4
+Housing loan information
+1
+Profile selection
+2
+Personal information
+3
+Property information
+4
+Housing loan information
+Tell us your housing situation
+Are you estimating the amount of Ordinary Account savings you can use for your existing property or a new property?
+Existing property
+New property
+Did you know?
+You can obtain the exact amount of Ordinary Account savings that you can use for your existing property by logging in to view your Home ownership dashboard.
+Do you want to log in?
+Cancel
+Login
+Continue with calculator
+Let us know your age
+You and your co-owners' dates of birth help us to determine how much Ordinary Account savings you can use for your property.
+My date of birth
+Date of birth (Co-owner)
+Add more co-owners
+You can add
+%s%
+more co-owners
+Tell us about the property
+Type of property
+HDB flat
+Private property
+Type of HDB flat
+Built-To-Order (BTO) flat
+Non-BTO flat
+Flats that are bought directly from HDB but are not BTO flats
+Resale flat
+Date of purchase
+Lease start date
+Go to the
+HDB website
+to obtain this date.
+Lease duration
+years
+This refers to the full lease duration and not the remaining lease duration. Go to the
+HDB website
+to obtain this date.
+Date of purchase
+Log in to the
+HDB website
+to obtain your "Date Applied" or "Date of Application". If you have yet to commit to a purchase, you can enter an approximate purchase date.
+Lease start date
+Go to the
+HDB website
+to obtain this date.
+Lease duration
+years
+This refers to the full lease duration and not the remaining lease duration. Go to the
+HDB website
+to obtain this date.
+Date of purchase
+Indicate the date from your "Option to Purchase" or "Sale and Purchase Agreement".  If you have yet to commit to a purchase, you can enter an approximate purchase date.
+Lease start date
+You can obtain the lease start date from a title search for the property.
+Lease duration
+years
+This refers to the full lease duration and not the remaining lease duration. For freehold properties, enter "999".
+Add existing properties
+If you are currently using your Ordinary Account savings for other properties, add these properties as part of the calculation. You do not have to add properties you intend to sell after purchasing the property above.
+Delete
+Date of purchase
+Lease start date
+Lease duration
+years
+Remaining lease month (hidden)
+(optional)
+Remaining lease year (hidden)
+(optional)
+Youngest Owner Age At Purchase Date (Hidden)
+(optional)
+Youngest Owner Age Month At Purchase Date (Hidden)
+(optional)
+Add existing property
+You can add up to
+%s%
+more properties
+Share your financial information
+Type of loan
+HDB loan
+Bank loan
+No loan
+Type of loan
+Bank loan
+No loan
+Property purchase price ($)
+Property valuation price at time of purchase ($)
+Indicate the valuation price from the "Request for Value" report issued by HDB.
+Property valuation price at time of purchase ($)
+Indicate the valuation price from the valuation report issued by your bank.
+Has additional property? (hidden)
+(optional)
+Loan type (hidden)
+(optional)
+Date of purchase (hidden)
+(optional)
+Property valuation price at time of purchase ($) (hidden)
+(optional)
+Remaining lease month (Final) (hidden)
+(optional)
+Remaining lease year (Final) (hidden)
+(optional)
+Youngest Owner Age Month At Purchase Date (Hidden)
+(optional)
+Youngest Owner Age At Purchase Date (Hidden)
+(optional)
+Shorter Lease Eligibility (Hidden)
+(optional)
+Is HFL? (hidden)
+(optional)
+Back
+Back
+Next
+Submit
+Results
+You and your co-owners can use up to {proRatedValuationLimit} combined from your Ordinary Accounts for the property purchase.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Results Details
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+The remaining lease of the property is less than 30 years, or the sum of the youngest co-owner and the remaining lease year is 80 years or below. Your Ordinary Account savings cannot be used to purchase this property.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use all of your Ordinary Account savings for the property purchase.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use up to {valuationLimit} combined from your Ordinary Accounts for the property purchase.
+You can use more, up to {withdrawalLimit}, if you set aside your
+Basic Retirement Sum
+in your CPF accounts. Note that if you are below age 55, your Basic Retirement Sum is the Basic Retirement Sum applicable to members turning 55 this year.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use up to {valuationLimit} combined from your Ordinary Accounts for a property purchase.
+You can use more if you set aside your
+Basic Retirement Sum
+in your CPF accounts. Note that if you are below age 55, your Basic Retirement Sum is the Basic Retirement Sum applicable to members turning 55 this year.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use up to {valuationLimit} combined from your Ordinary Accounts for the property purchase.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use up to {proRatedValuationLimit} combined from your Ordinary Accounts for the property purchase.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use up to {valuationLimit} combined from your Ordinary Accounts for the property purchase.
+As you own more than one property, you can only use Ordinary Account savings in excess of your
+Basic Retirement Sum
+. Note that if you are below age 55, your Basic Retirement Sum is the Basic Retirement Sum applicable to members turning 55 this year.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use up to {proRatedValuationLimit} combined from your Ordinary Accounts for the property purchase.
+As you own more than one property, you can only use Ordinary Account savings in excess of your
+Basic Retirement Sum
+. Note that if you are below age 55, your Basic Retirement Sum is the Basic Retirement Sum applicable to members turning 55 this year.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+You and your co-owners can use up to {proRatedValuationLimit} combined from your Ordinary Accounts for a property purchase.
+As you own more than one property, you can only use Ordinary Account savings in excess of your
+Full Retirement Sum
+.
+Note that if you are below age 55, your Full Retirement Sum is the Full Retirement Sum applicable to members turning 55 this year.
+Edit
+New
+Purchase price of property
+{purchasePriceOfProperty}
+Property valuation price at time of purchase
+{valueOfPropertyAtTimeOfPurchase}
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+Results
+The remaining lease of the property is 20 years or below. Your Ordinary Account savings cannot be used to purchase this property.
+Edit
+New
+Resources
+Home ownership calculators
+Estimate other housing-related matters such as your loan payment period, Home Protection Scheme Premiums, and more
+View more
+Housing Scheme
+Learn more about housing matters. Find out more about the
+use of your Ordinary Account savings for your housing needs.
+Learn more
+Guide to home ownership
+Find out everything you need to know about buying a property within your means using Ordinary Account savings.
+Learn more
+We're sorry
+Looks like something went wrong.

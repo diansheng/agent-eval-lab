@@ -1,0 +1,393 @@
+IRAS | Property Tax Rates and Sample Calculations
+Property tax rates on owner-occupied and non-owner-occupied residential properties are applied on a progressive scale. All other properties are taxed at 10% of the Annual Value.
+On this page:
+Property tax formula
+Annual property tax is calculated by multiplying the
+Annual Value (AV)
+of the property with the Property Tax Rates that apply to you.
+For example, if the AV of your property is $30,000 and your tax rate is 10%, you would pay $30,000 x 10% = $3,000 in property taxes.
+Owner-occupier tax rates (residential properties)
+Owner-occupied residential properties are condominiums, HDB flats or other residential properties where the owner lives in ("occupies") the property. Owner-occupied residential properties enjoy
+owner-occupier tax rates
+.
+Owner-occupier tax rates (Effective 1 Jan 2025)
+Annual Value ($)
+Tax rate effective from 1 Jan 2025
+Property Tax Payable
+First $12,000
+Next $28,000
+0%
+4%
+$0
+$1,120
+First $40,000
+Next $10,000
+-
+6%
+$1,120
+$600
+First $50,000
+Next $25,000
+-
+10%
+$1,720
+$2,500
+First $75,000
+Next $10,000
+-
+14%
+$4,220
+$1,400
+First $85,000
+Next $15,000
+-
+20%
+$5,620
+$3,000
+First $100,000
+Next $40,000
+-
+26%
+$8,620
+$10,400
+First $140,000
+Above $140,000
+-
+32%
+$19,020
+Owner Occupier Tax Rates (Effective 1 Jan 2024 to 31 Dec 2024)
+Annual Value ($)
+Tax rate effective from 1 Jan 2024 to 31 Dec 2024
+Property tax payable
+First $8,000
+Next $22,000
+0%
+4%
+$0
+$880
+First $30,000
+Next $10,000
+-
+6%
+$880
+$600
+First $40,000
+Next $15,000
+-
+10%
+$1,480
+$1,500
+First $55,000
+Next $15,000
+-
+14%
+$2,980
+$2,100
+First $70,000
+Next $15,000
+-
+20%
+$5,080
+$3,000
+First $85,000
+Next $15,000
+-
+26%
+$8,080
+$3,900
+First $100,000
+Above $100,000
+-
+32%
+$11,980
+Owner Occupier Tax Rates (Effective 1 Jan 2023 to 31 Dec 2023)
+Annual Value ($)
+Tax rate effective from 1 Jan 2023 to 31 Dec 2023
+Property tax payable
+First $8,000
+Next $22,000
+0%
+4%
+$0
+$880
+First $30,000
+Next $10,000
+-
+5%
+$880
+$500
+First $40,000
+Next $15,000
+-
+7%
+$1,380
+$1,050
+First $55,000
+Next $15,000
+-
+10%
+$2,430
+$1,500
+First $70,000
+Next $15,000
+-
+14%
+$3,930
+$2,100
+First $85,000
+Next $15,000
+-
+18%
+$6,030
+$2,700
+First $100,000
+Above $100,000
+-
+23%
+$8,730
+Owner Occupier Tax Rates (Effective 1 Jan 2015 to 31 Dec 2022)
+Annual Value ($)
+Tax rate effective from 1 Jan 2015 to 31 Dec 2022
+Property tax payable
+First $8,000
+Next $47,000
+0%
+4%
+$0
+$1,880
+First $55,000
+Next $15,000
+-
+6%
+$1,880
+$900
+First $70,000
+Next $15,000
+-
+8%
+$2,780
+$1,200
+First $85,000
+Next $15,000
+-
+10%
+$3,980
+$1,500
+First $100,000
+Next $15,000
+-
+12%
+$5,480
+$1,800
+First $115,000
+Next $15,000
+-
+14%
+$7,280
+$2,100
+First $130,000
+Above $130,000
+-
+16%
+$9,380
+Example 1: AV of Residential Property is $36,000
+Annual Value ($)
+Tax rate effective from
+1 Jan 2025
+Property tax payable
+First 12,000
+X 0%
+= 0
+Next 24,000
+X 4%
+= $960
+Total property tax payable = $960
+Example 2: AV of Residential Property is $84,000
+Annual Value ($)
+Tax rate effective from
+1 Jan 2025
+Property tax payable
+First 12,000
+X 0%
+= 0
+Next 28,000
+X 4%
+= $1,120
+Next 10,000
+X 6%
+= $600
+Next 25,000
+X 10%
+= $2,500
+Next 9,000
+X 14%
+= $1,260
+Total property tax payable = $5,480
+Non-owner-occupier residential tax rates (residential properties)
+Non-owner occupied residential properties are condominiums, HDB flats or other residential properties that the owner does not live in ("occupy"). Hence, owner-occupier tax rates do not apply.
+The following tax rates apply to non-owner occupied properties
+except for those in the exclusion list
+.
+Non-owner-occupier residential tax rates
+Annual Value ($)
+Effective 1 Jan 2024
+Property Tax Payable
+First 30,000
+Next $15,000
+12%
+20%
+$3,600
+$3,000
+First $45,000
+Next $15,000
+-
+28%
+$6,600
+$4,200
+First $60,000
+Above $60,000
+-
+36%
+$10,800
+Non-Owner-Occupier Residential Tax Rates (Effective 1 Jan 2023 to 31 Dec 2023)
+Annual Value ($)
+Tax rate effective from 1 Jan 2023 to 31 Dec 2023
+Property tax payable
+First $30,000
+Next $15,000
+11%
+16%
+$3,300
+$2,400
+First $45,000
+Next $15,000
+-
+21%
+$5,700
+$3,150
+First $60,000
+Above $60,000
+-
+27%
+$8,850
+Non-Owner-Occupier Residential Tax Rates (Effective 1 Jan 2015 to 31 Dec 2022)
+Annual Value ($)
+Tax rate effective from 1 Jan 2015 to 31 Dec 2022
+Property tax payable
+First $30,000
+Next $15,000
+10%
+12%
+$3,000
+$1,800
+First $45,000
+Next $15,000
+-
+14%
+$4,800
+$2,100
+First $60,000
+Next $15,000
+-
+16%
+$6,900
+$2,400
+First $75,000
+Next $15,000
+-
+18%
+$9,300
+$2,700
+First $90,000
+Above $90,000
+-
+20%
+$12,000
+Example 3: AV of Residential Property is $36,000
+Annual Value ($)
+Non-Owner-Occupier Residential Tax rate effective from 1 Jan 2024
+Property tax payable
+First 30,000
+X 12%
+= $3,600
+Next 6,000
+X 20%
+= $1,200
+Total property tax payable = $4,800
+Example 4: AV of Residential Property is $84,000
+Annual Value ($)
+Non-Owner-Occupier Residential Tax rate effective from 1 Jan 2024
+Property tax payable
+First 30,000
+X 12%
+= $3,600
+Next 15,000
+X 20%
+= $3,000
+Next 15,000
+X 28%
+= $4,200
+Next 24,000
+X 36%
+= $8,640
+Total property tax payable = $19,440
+Excluded properties
+Accommodation facilities within any sports and recreational club
+Chalet
+Child care centre, student care centre, or kindergarten
+Welfare home
+Hospital, hospice, or place for rehabilitation, convalescence, nursing care or similar purposes
+Hotel, backpackers' hostel, boarding house or guest house
+Serviced apartment
+Staff quarters that are part of any property exempted from tax under S6(6) of the Property Tax Act
+Student's boarding house or hostel
+Workers' dormitory
+The property must have received planning approval for the above use. No application to IRAS is required.
+Commercial and industrial properties (Non-Residential)
+Non-residential properties such as commercial and industrial buildings and land are taxed at 10% of the Annual Value. Owner-occupier tax rates do not apply to non-residential properties even if you have bought the properties for your own use/occupation.
+Example 5: AV of Commercial Property is $54,000
+Annual Value ($)
+Tax rate
+Property tax payable
+54,000
+X 10%
+= $5,400
+Property tax payable = $5,400
+FAQs
+Knowing my tax rates
+If I own and occupy more than one residential property, what will be the tax rate?
+The owner-occupier tax rates are only granted to one property owned and occupied by you. For subsequent properties, you will be taxed at non-owner-occupier residential tax rates even if you are occupying it as your second home.
+How do I know if my residential property is taxed at owner-occupier tax rates or non-owner-occupier residential tax rates?
+From your property tax notice and bill, the tax rate applied on the property is indicated in brackets as [Owner-Occupier Tax Rates] or [Non-owner-occupier Residential Tax Rates] under the “AV and Tax Rates” Column.
+Alternatively, you can log in to mytax.iras.gov.sg with your Singpass > Property >
+View Property Summary
+.
+Tax rates based on use of my property
+What is my tax rate if my residential property is used as a home office?
+The property may qualify for the property tax rates for residential properties as it is used primarily for residential purposes. However, you must satisfy the terms and conditions set out by URA or HDB for the home office scheme
+What is my tax rate if my residential property is used as a childcare centre?
+For landed houses used as childcare centres, approval for change of use must be obtained from URA. The tax rate is 10%.
+What rates will apply for shophouses or shopflats with 2 distinct and demarcated uses?
+The residential component will be subject to the property tax rates for residential properties while the commercial component will continue to be taxed at 10%.
+Do I have to inform IRAS when I change the use of my residential property to non-residential?
+Yes, you have to notify IRAS in writing within 15 days from the date of the change.
+Do I have to pay property tax on my vacant property?
+Yes. Property tax is a tax on property ownership and applies whether the property is rented out, owner-occupied or vacant. It is different from income tax which is levied on the rental income earned from renting out the property. Hence, all property owners would have to pay property tax on their properties regardless whether it is occupied or not.
+Progressivity of tax rates
+What are the applicable property tax rates for vacant properties?
+Vacant residential property will be taxed at the
+non-owner-occupier residential tax rates
+while vacant non-residential property will be taxed at 10% of the Annual Value. There is no tax relief/concession for vacant properties.
+Why are property tax rates higher for let-out residential properties?
+Let-out or rented residential properties are considered investment assets and are taxed at a higher rate than owner-occupied properties. The tax structure ensures that higher-value properties are subject to higher tax rates.
+I inherited my property and it has a very high AV. I am staying in my property and do not generate rental income from it. I am just a regular salaried worker and do not intend to sell my property. Why do i need to pay higher property tax?
+As opposed to income tax, which taxes the income received by a person, property tax is a wealth tax.
+It is not a tax on rental income.
+It is thus levied based on the value of your property, which represents part of your overall wealth.
+However, to encourage home ownership, you can enjoy a lower tax rate for your owner-occupied residential property.
+Pages
+Interactive Property Tax Calculators
+Pages
+Annual Value
+Pages
+Lower Property Tax Rates for Owner-Occupied Residential Properties

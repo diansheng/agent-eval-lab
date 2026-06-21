@@ -1,0 +1,79 @@
+CPFB | Privacy statement
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Privacy statement
+View the Singapore Government Agency Privacy Statement
+Facebook
+Telegram
+WhatsApp
+Email
+LinkedIn
+X
+Notice
+Our CPF hotlines are temporarily unavailable due to technical difficulties related to Singtel. We apologise for any inconvenience caused. For urgent assistance, please reach us through our
+Text Us
+service, and we will respond as soon as we can.
+Singapore Government Agency Privacy Statement
+This is a Singapore Government Agency service. In this Privacy Statement, “we”, “us” or “our” refers collectively to the Central Provident Fund Board.
+This Privacy Statement sets out the way in which we may use the information, including your personal data and any data relating to third party individuals, which were obtained via your access to and/or use of our digital and/or non-digital services (“Information”). Digital services include the CPF website (cpf.gov.sg) and the CPF Mobile application service. Non-digital services include hardcopy applications, appeals or requests received via our hotline channel or letters, etc.
+We reserve the right to modify or supplement the Privacy Statement at our discretion and at any time, by posting the modified or supplemented Privacy Statement on or through the digital service, or through such other means as we may deem appropriate. Your continued use of our digital and/or non-digital services (“Our Services”) following the posting of any modification or supplement will constitute your acceptance of such modification or supplement.
+If you are only browsing Our Services, we do not capture data that allows us to identify you individually.
+Collection of Information
+For Our Services, we may collect the Information through various technologies including but not limited to:
+Analytics tags
+: Analytics tags are third party elements used by us to analyse the effectiveness of the functionalities, features and user preferences relating to Our Services;
+Cookies
+: Cookies are small data files which are sent to your browser or device to store and track information about you when you use Our Services. Cookies are also used to improve and maintain the functionality of Our Services, and to track information such as the profile of the users and other similar information relating to the use of Our Services. While these cookies can tell us when you use Our Services, they cannot read data off your hard disk. Not all cookies collect your Information you may configure your preferences and settings to reject the use of cookies. However, this may mean you may not be able to take full advantage of Our Services, including its features or the functionalities;
+Server logs
+: Server logs are files and records of activity created by the device that you use Our Services from. For example, a server log may record a history of page requests, errors, access attempts or other information about your Device, such as your IP address or Operating System (OS); and
+Device information
+: Information relating to your device such as its, type, operating system, and other technical and security attributes.
+Collection of Third-Party Information
+In the course of your use of Our Services, you may provide, or we may collect Information relating to third party individuals from you.
+You shall, prior to disclosing to us such Information relating to other individuals:
+notify these individuals (i) that you will be providing their Information to us or through your use of Our Services; and (ii) of the Purposes for which we will be collecting, using, disclosing, and processing their Information, as set out in this Privacy Statement; and
+obtain the consent from the individuals whose Information are being disclosed, permitting (i) you to disclose the Information to us or through your use of Our Services; and (ii) us to collect, use, disclose and process these individuals’ Information for the Purposes.
+You represent and warrant that:
+The Information that you will be providing us or have provided us is, complete, accurate, true, and correct; and
+you have the valid authority and consent from these individuals to act on their behalf and provide their Information to us to collect, use, disclose and process for the Purposes.
+Use of Information
+We may use the Information for, including but not limited to, the following purposes:
+to carry out your instructions or respond to any queries, feedback or complaints provided by (or purported to be provided by) you or on your behalf, or otherwise for the purposes of responding to or dealing with your interactions with us;
+to perform actions or transactions in line with the legislation or terms of conditions for schemes under or administered by us for which you are a participant of the scheme;
+to pre-fill forms, e-applications or any screen on Our Services, with your Information;
+to contact you or communicate with you on any matters relating to your use of Our Services, including but not limited to the purposes set out above, via email, push notifications, hardcopy notification or such other forms of communication that we may introduce from time to time (digital notifications would depend on the functionality of the digital service used and your device);
+to contact you or communicate with you to facilitate the conduct of market research, surveys, and promotional activities by us;
+to monitor and track your usage of Our Services, in order to assist us in understanding user behaviour, trends and preferences, and in improving Our Services;
+to create reports and produce statistics for operations, policy review, book-keeping, reporting or publication purposes (whether internally or externally). Information used in such reports and statistics will be anonymised before publication;
+for the purposes of storing or creating backups of your Information for contingency or business continuity purposes;
+to prevent or investigate any fraud, unlawful or criminal activity or omission or misconduct via the use of Our Services, whether or not there is any suspicion of the aforementioned;
+to deal with conflict of interests or investigate complaints in relation to your use of Our Services;
+to counter misleading information that has been put out and disseminated to the public; this is important as it helps the public gain a fuller picture of the situation and counter the misinformation, both of which are necessary to maintain the trust placed in public agencies; and
+for any other purpose(s) that do not appear above where permissible under any written law,
+(collectively, the “
+Purposes
+”).
+Where appropriate, we may share necessary Information with other Government Agencies, so as to serve you in the most efficient and effective way unless such sharing is prohibited by law.
+We may share your Information with non-Government entities that have been authorised to carry out specific Government services. We will NOT share your Information with other non-Government entities without your consent except where such sharing complies with the law.
+For your convenience, we may also display to you Information you had previously supplied us or other Government Agencies. This will speed up the transaction and save you the trouble of repeating previous submissions. Should the Information be out-of-date, please supply us with the latest Information. We are not liable for any damage or loss caused to you due to errors in the Information.
+Protection of Information
+To safeguard your Information, all electronic storage and transmission of Information is secured with appropriate security technologies. For use of Our Services,
+you can help further by safeguarding the confidentiality of your Singpass
+.
+Our Services may contain links to non-Government digital services whose data protection and privacy practices may differ from ours. We are not responsible for the content and privacy practices of these other digital services and encourage you to consult the privacy notices of those digital services.
+Contact Information
+Please contact us via
+cpf.gov.sg/writetous
+if you:
+have any enquiries or feedback on our data protection policies and procedures, or
+need more updates on or access to Information which you have provided to us in the past.
+This version of the Privacy Statement is dated 28 July 2023

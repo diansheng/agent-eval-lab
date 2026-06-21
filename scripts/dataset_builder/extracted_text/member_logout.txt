@@ -1,0 +1,31 @@
+CPFB | Logout
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Successfully logged out
+Dear {nameOfMember}
+Thank you for using
+my cpf
+digital services.
+Login
+Logout
+Duration
+dd mmm yyyy mm:ss am/pm
+dd mmm yyyy mm:ss am/pm
+0 minute(s)
+Login
+dd mmm yyyy mm:ss am/pm
+Logout
+dd mmm yyyy mm:ss am/pm
+Duration
+0 minute(s)
+You have logged out. Please log in again to access CPF digital services.
+Logout was unsuccessful. Try logging out again

@@ -1,0 +1,197 @@
+CPFB | Saving as a platform worker with CPF contributions
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Growing your savings
+Saving as a platform worker with CPF contributions
+As a platform worker, your CPF contributions will be made through your platform operator on a monthly basis. This applies for all platform workers.
+Facebook
+Telegram
+WhatsApp
+Email
+LinkedIn
+X
+Updates on 1 Nov 2024:
+For platform workers born before 1 January 1995, you may opt in to increase your CPF contributions
+here
+.
+Definition
+How much to contribute
+Verify your CPF
+Other income
+Platform Workers CPF Transition Support
+Workfare Income Supplement
+Resources
+FAQs
+Definition
+How much to contribute
+Verify your CPF
+Other income
+Platform Workers CPF Transition Support
+Workfare Income Supplement
+Resources
+FAQs
+Definition
+Who is a platform worker?
+You are a platform worker (PW) if you
+provide ride-hail or delivery services under a platform work agreement with a Platform Operator (PO), and receive a payment or benefit; and
+are under the management control of the PO when providing the platform service
+Changes at a glance:
+CPF Contributions for Platform Workers
+false
+For all platform workers
+Your platform operator will deduct your CPF contributions as and when you earn and submit them to CPF Board every month.
+For platform workers born on 1 Jan 1995 or later
+CPF contribution rates for you and platform operators will be gradually increased to match that for employees and employers.
+CPF contributions will go to your Ordinary, Special or Retirement, and MediSave Accounts, based on these
+allocation rates
+.
+You will see an increase in total earnings after factoring in additional CPF contributions from platform operators.
+Your platform operator will deduct your share of CPF contributions as and when you earn, and submit it to CPFB monthly, together with the platform operator share of CPF contributions.
+The government will support eligible lower-income platform workers with Platform Workers CPF Transition Support (PCTS) to minimise impact on take-home pay.
+/member/growing-your-savings/cpf-contributions/saving-as-a-platform-worker/born-in-1995-or-later.html
+false
+Read more
+For platform workers born before 1 Jan 1995
+If you opt in to increased CPF contributions:
+You will contribute at the same rates, and enjoy the same benefits, as platform workers born on 1 Jan 1995 or later.
+You will receive CPF contributions from your platform operator.
+Your platform operator will deduct your share of CPF contributions as and when you earn, and submit it to CPFB monthly, together with the platform operator share of CPF contributions.
+CPF contributions will go to your Ordinary, Special or Retirement, and MediSave Accounts, based on these
+allocation rates
+.
+If you do not opt in to increased CPF contributions:
+You will continue to contribute to your MediSave Account only.
+You will not receive CPF contributions from your platform operator.
+Only MediSave contributions will be deducted by your platform operator as and when you earn, and submitted to CPFB monthly.
+/member/growing-your-savings/cpf-contributions/saving-as-a-platform-worker/born-before-1995.html
+false
+Read more
+How much to contribute
+Calculating your CPF contributions
+1) Determine your gross earnings
+Your CPF contribution will be computed on a monthly basis. All payments related to your platform work will attract CPF contributions. You can view your gross earnings in the earnings slip provided by your platform operators.
+/service/article/what-are-the-platform-fee-components-included-in-gross-earnings-that-attract-cpf-contributions.html
+false
+Learn more about payments that attract CPF contributions
+2) Compute your net earnings using the Fixed Expense Deduction Amount
+Your CPF contribution will be computed based on gross earnings minus the Fixed Expense Deduction Amount (FEDA). The FEDA varies according to the mode of transportation you use for the job.
+Apply the respective FEDA to your gross earnings to compute your net earnings.
+Mode of Transport
+FEDA
+Cars, vans, lorries, trucks
+60%
+Motorcycles, power-assisted bicycles, motorised personal mobility devices
+35%
+Bicycles, on foot (including use of public transport)
+20%
+/service/article/what-is-the-fixed-expense-deduction-amount.html
+false
+Calculate your net earnings using the FEDA:
+Net Earnings = Gross Earnings – Fixed Expense Deduction Amount (FEDA)
+Learn more about Fixed Expense Deduction Amount
+3) Compute your CPF contributions
+Your CPF contribution rate is based on your net earnings, age group and opt-in status.
+CPF contributions = Net Earnings * Applicable CPF Contribution rate
+/content/dam/web/employer/employer-obligations/documents/CPFPWContributionRate2025_2029.pdf
+true
+Download contribution rates (0.2 MB)
+CPF contribution rates are lower for older platform workers and those with monthly net earnings below $750.
+Use this calculator to compute your CPF contributions
+/member/tools-and-services/calculators/platform-worker-cpf-contribution-calculator.html
+false
+Go to Platform Worker CPF Contribution Calculator
+CPF contributions are computed separately for each platform operator you work with. You do not need to make any CPF contributions on net earnings exceeding $102,000 in a year per platform operator.
+https://www.cpf.gov.sg/content/dam/web/employer/employer-obligations/documents/CPFPWAllocationRates2025.pdf
+false
+If you are born on or after 1 Jan 1995, or have opted in for increased CPF contributions, your CPF contributions will be allocated to your Ordinary, Special or Retirement, and MediSave accounts. Otherwise, your CPF contributions will go to your MediSave Account only.
+Download allocation rates
+https://www.cpf.gov.sg/content/dam/web/employer/employer-obligations/documents/CPFPWContributionAdditionalExamples.pdf
+false
+Download examples on platform worker contributions (PDF, 0.1MB)
+Verify your CPF
+How to verify my CPF contributions are correct?
+Do verify your CPF contributions every month so that any errors can be rectified as early as possible
+1
+Look out for the CPF Contribution Alert
+Get notified when your CPF contributions are credited in your CPF accounts. You are encouraged to keep your contact details updated to receive the alert.
+Do check if your CPF contributions are promptly made.
+false
+2
+Check your net earnings and CPF contributions.
+Your platform operator is required to provide an itemised earnings statement, which includes the deduction of your share of CPF contributions.
+You can verify the net earnings and CPF paid against your earnings statement (CPF contribution is based on net earnings per month, you should refer to all earnings statement issued by your platform operator for the relevant month).
+Use the Platform Worker CPF Contribution calculator to verify your CPF contributions.
+/member/tools-and-services/calculators/platform-worker-cpf-contribution-calculator.html
+false
+Go to Platform Worker CPF Contribution Calculator
+3
+Approach your platform operator if any discrepancies are found.
+If your CPF contributions are not paid on time or discrepancies are found, please contact your platform operator promptly for clarification. Your platform operator is expected to rectify errors without delay. If your platform operator does not provide you with a satisfactory response, you can lodge a report with CPF Board.
+For CPF contributions paid in error, your platform operator will need to submit a request for adjustment or refund immediately, and no later than one year from the date of payment.
+https://go.gov.sg/lodge-a-report
+true
+Lodge a report
+Should you require further assistance
+If you are not satisfied with your platform operator’s explanations, or if your platform operator is not cooperative, you can contact the CPF Board for assistance.
+CPF contributions not paid or underpaid
+You should lodge a report immediately, with your supporting documents (e.g. earnings statements). We will investigate your claim.
+https://go.gov.sg/lodge-a-report
+false
+Lodge a report
+Any other discrepancies
+Write to us and let us know who your platform operator is, and your net earnings as shown in your earnings statement for the month affected.
+/service/write-to-us.html
+false
+Write to us
+Other income
+If you are earning other income
+Self - employed income
+If you derive self-employed income from non-platform work (e.g. tuition teaching, or taxi street-hail jobs), or from platform work prior to 2025, you will still need to contribute to your MediSave account on these sources of income in the following year, after you have declared your net trade income to IRAS.
+/service/article/i-have-already-made-cpf-contributions-as-a-platform-worker-do-i-still-need-to-contribute-medisave-in-the-following-year-for-my-other-self-employed-work.html
+false
+Find out more
+Employee income
+If you are also earning employee income, your employer is still required to make contributions on your employee income to CPF Board every month.
+false
+Platform Workers CPF Transition Support
+How can the Platform Workers CPF Transition Support help?
+The Platform Workers CPF Transition Support (PCTS) will be provided from 2025 to 2028 as the CPF contribution rates for platform workers are gradually increased to align with employees.
+PCTS will provide monthly cash support to offset part of the year-on-year increase in contribution rates to platform workers’ CPF Ordinary and Special or Retirement Account.
+Find out about Platform Workers CPF Transition Support
+Workfare Income Supplement
+Workfare Income Supplement for Platform Workers
+Eligible lower-income platform workers will receive Workfare Income Supplement (WIS) payments monthly instead of annually from 2025.
+Eligible platform workers who are mandated or opt in to the increased CPF contribution rates will receive higher WIS payments at the same level as employees from 2029, once their CPF contribution rates fully align with that of employees. They will also receive a higher proportion of WIS payments in cash - 40% compared to 10% today.
+Find out about Workfare Income Supplement for platform workers
+Resources
+Need more information?
+Platform worker contribution calculator
+Calculate your CPF contributions and see how they are allocated into your Ordinary Account, Special Account or Retirement Account and MediSave Account.
+Opt-in form to increase CPF contributions
+If you are a platform worker born before 1 Jan 1995, you can opt in to increase your CPF contributions, and enhance your housing and retirement adequacy.
+Platform worker CPF contribution rates
+View the CPF contribution rates for platform workers.
+CPF platform worker allocation rates
+View the CPF allocation rates for platform workers.
+Platform Workers CPF Transition Support Scheme (PCTS)
+Find out more about PCTS and its eligibility criteria.
+Know your platform worker rights
+Find out more about your work injury compensation, and representation.
+Show all
+FAQs
+Common questions
+What are the contribution rates for platform workers?
+What are the benefits if I opt in to increased CPF contributions as a Platform Worker?
+How will platform workers’ CPF contributions be allocated to the CPF accounts?
+View all
+https://www.cpf.gov.sg/service/sub-categories?category=P_M_GYS
+false

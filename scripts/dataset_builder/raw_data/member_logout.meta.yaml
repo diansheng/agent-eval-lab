@@ -1,0 +1,4 @@
+name: member_logout
+source: CPF
+type: html
+url: https://www.cpf.gov.sg/member/logout

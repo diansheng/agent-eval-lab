@@ -1,0 +1,4 @@
+name: member_plan_with_cpf
+source: CPF
+type: html
+url: https://www.cpf.gov.sg/member/plan-with-cpf

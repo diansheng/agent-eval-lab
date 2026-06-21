@@ -1,0 +1,164 @@
+IRAS | How to Object to your Assessment
+You may object to the Annual Value and/or its effective date.
+On this page:
+Basis of Objection
+You can object to the Annual Value (AV) and/ or its effective date. You should not be objecting to the
+property tax rates
+as they are fixed according to the occupancy status of the property (owner-occupied or non-owner-occupied).
+Filing an Objection
+To file an objection, you can use our
+'Object to Annual Value'
+digital service.
+In your objection, you need to state your desired AV, effective date and the grounds of your objection, including any evidence to support your desired AV.
+The following are not valid grounds for objections:
+Tax rates are too high.
+There is no rental income as property is
+owner-occupied
+.
+Financial hardship.
+Deadline for Filing Objections
+You may object to the proposed AV and/or effective date of assessment
+within 30 days from the date of the Valuation Notice
+informing you of the AV of your property.
+You may also object to the AV of your property as shown in the Valuation List (VL) at any time in the year even if you do not receive a Valuation Notice. The VL contains the AVs of all properties. Objections to the AVs in the VL have to be made by
+31 Dec
+of the year of the VL.
+To check the current AV of your property, you can use our
+'View Property Summary'
+digital service.
+Checking Status of Objection
+To check the status, you can use our
+'Object to Annual Value'
+digital service.
+Filing an Appeal
+You may appeal to the
+Valuation Review Board
+(VRB) within 30 days of the notice of our decision to disallow or partially allow the objection. Please refer to the VRB website for details on filing an appeal.
+Property tax is payable even if you have filed an objection/appeal.
+FAQs
+You have disallowed my objection to the AV. Can I appeal?
+Yes. You may appeal to the
+Valuation Review Board
+(VRB) within 30 days of the notice of our decision to disallow or partially allow the objection. Please refer to the VRB website for details on filing an appeal.
+Property tax is payable even if you have filed an objection/appeal.
+Do I need to pay property tax if my objection/appeal is outstanding?
+Yes. Property Tax is payable even if your objection/appeal is outstanding.
+I just receive my property tax bill and I find the assessed Annual Value (AV) for my residential property is high. I am thinking of filing an objection against my AV. What is the likelihood of a successful downward AV revision through the objection process?
+The Annual Value (AV) is the estimated annual rent of the property if it were to be rented out. The AV of a residential property is assessed based on market rents of comparable properties and will be adjusted (either upwards or downwards) when there is market evidence to support the revision.
+Based on our records,
+98% of residential AV objections are unsuccessful with no amendments made to the original assessment.
+In other words, the AV for the vast majority of residential objections filed are found to be in line with market rents and are therefore unsuccessful.
+IRAS adhere to robust valuation practices to ensure a fair and accurate assessment. While it is uncommon for objections to result in changes, IRAS remains committed to reviewing every submission thoroughly with all valid grounds carefully considered.
+Before proceeding with an objection, please note that the following grounds for objection
+are not accepted and will be rejected
+:
+1.	High tax rates
+2.	Financial difficulties
+3.	You are not receiving any rental income as the property is either vacant or owner-occupied.
+4.	Issues relating to the property tax apportionment with developers for newly completed properties
+We encourage you to review our FAQ section and case studies to understand how AVs are determined before deciding whether to proceed with an objection.
+If you require financial assistance on your property tax obligations, please visit the webpage on
+payment plans
+.
+The following are common enquiries that can be addressed through other dedicated digital services and do not require an objection to be filed:
+(i) [Owner-occupier concession] I only own one property. I have moved back into my property which was previously let out. Please revise the tax rate/AV accordingly.
+(ii) [Newly completed landed residential property] My property is recently completed and have obtained TOP/CSC. Please revise my AV accordingly.
+(iii) [GIRO instalment plan] I would like to apply for GIRO instalment/ make changes to my existing GIRO instalment payment plan.
+Before filing an objection, please note that the following enquiries can be addressed through other dedicated digital services:
+(i)
+[Owner-occupier concession]
+If you would like to apply for the concessionary Owner-Occupier Tax rates,
+p
+lease do not file an objection
+, instead please:
+1. Log in to
+mytax.iras.gov.sg
+with your Singpass
+2. Select 'Property’
+3. Select 'Apply/ Withdraw Owner-Occupier Tax Rates'
+(ii)
+[Newly completed landed residential property]
+If you would like to inform us of the completion of your property (i.e. TOP/CSC obtained),
+please do not file an objection
+. Instead, please log in to myTax Portal and inform us via myTax Mail (secured correspond channel).
+(iii)
+[GIRO Application]
+If you would like to apply for GIRO instalment/make changes to existing GIRO instalment plans, please do so via myTax Portal. Please refer to
+linked user guide (for individuals)
+.
+I recently moved from a HDB flat to a private condominium unit. Why is the property tax higher for my private condominium unit even though the size of the two properties is similar?
+Our Property Tax (PT) regime is progressive and designed to distribute tax obligations equitably. Property Tax on residential properties follows a progressive tax rate schedule, where the higher value the property, the higher the property tax. This applies to both owner-occupier tax rates and non-owner-occupier tax rates for residential properties.
+Private condominium units typically command higher rents in the market compared to HDB flats and would thus have higher AVs, even for units with similar floor areas due to the differences in their various property characteristics. For example, private condominiums have additional facilities and amenities (such as swimming pools, gyms, on-site security) that contribute to higher potential rents as compared to HDB flats.
+Therefore, the annual PT for a condominium unit is higher than a HDB flat of a similar size because it has a higher AV and corresponding tax rates.
+To give me an idea of whether the AV of my property is fair, where can I find information on private residential properties or HDB flats that are let out?
+To understand whether the AV of your property is fair and how it is calculated, we suggest the following helpful steps:
+1.	First, refer to our
+Case Studies
+:
+(i)
+Private Condominium unit
+(PDF, 64KB)
+(ii)
+Newly Built House
+(PDF, 60KB)
+These case studies illustrate how we determine AV based on rents of similar properties in your neighbourhood.
+2.	Next, you may refer to rents of private residential properties made available on
+URA website (http://www.ura.gov.sg)
+and rents of HDB flats made available on
+HDB website (www.hdb.gov.sg)
+.
+Please note that the rental figures are intended only as a general guide and should not be used as a direct 1-to-1 comparison with your specific property. The AV of your property may differ as it considers various property specific  factors such as its location, condition, size, etc.
+I am a retiree with sentimental attachment to my home. I no longer draw any monthly income, and I am the sole caregiver for my spouse who has many medical ailments. Can my circumstances allow for my AV be lowered so I can afford my property taxes, medical fees, and daily living expenses?
+We understand your challenging financial situation and that your home is more than bricks and mortar. It holds deep personal value.
+However, the AV of a property is assessed based on market rental evidence, and not on personal circumstances. While we are unable to reduce the AV of your property, we understand that property taxes can be a financial concern.
+To assist you with your tax obligations, IRAS offers an interest-free instalment payment plan for up to 24 months to provide flexibility to lower your monthly instalment payments. To explore your options, you may apply for a longer payment plan via the
+‘Apply/Manage GIRO Plan’
+digital service at
+myTax Portal
+. Please note that instalment plans are only available if you choose to pay via GIRO.
+If you are residing at your property, you will be enjoying the lower owner-occupier concession, as compared to higher tax rates for residential investment properties. The Government also granted property tax rebates for owner occupied properties in years 2023 to 2025, to help Singaporeans with cost-of-living concerns. These are measures to assist homeowners to manage their tax obligations.
+My friend’s property is the same size as mine, but I heard that their Annual Value (AV) is lower. How is that justified?
+How we determine your property's AV involves more than just its size. Think of it as your property's potential yearly rental income, which is influenced by several key factors, if you were to let it out:
+• Property type (whether
+it is a HDB flat, private condominium unit or landed property)
+• Location
+• Property condition
+• Special features or attributes
+For a better illustration, you may refer to the following infographics:
+Scenario
+1:
+Private semi-detached owner comparing PT with neighbour who lives in an intermediate terrace house
+.
+Scenario 2:
+Private condo owner (new 3 bedder condo unit - Marine Parade) comparing PT with relative who lives in a landed property (older terrace - Bedok)
+.
+My property is old, needs repairs, and is not in perfect condition. I have not done any renovation works since I first moved in many years ago. Will IRAS peg my AV at a higher level based on the rents of the newer and bigger properties in my estate?
+While we consider the prevailing market rents of comparable properties in the locality, do rest assured that we will make appropriate adjustments and take into account the subject property’s unique characteristics and actual physical condition in determining its AV assessment.
+I recently purchased a new residential property from the developer. Why am I taxed with effect from 1 December 2024 (earlier date) when I only collect the keys to my unit on 31 January 2025 (later date) and move in on 1 April 2025 after my renovation works?
+We would like to share that newly completed properties are taxed from the date of completion of the building (i.e. date of issuance of Temporary Occupation Permit (TOP) or Certificate of Statutory Completion (CSC), whichever is earlier). In the case of your newly completed condominium unit, the development obtained TOP on 1 December 2024. Hence, the effective date of its Annual Value (AV) assessment is 1 December 2024, i.e., its TOP date.
+We note that the property was transferred to you on 31 January 2025. Generally, the developer will bear the amount of property tax from the date of TOP or CSC to the date prior to the tax liability of the purchaser, thereafter from which the purchaser will bear his share of tax. Property tax apportionment is a private matter to be resolved between the seller and purchaser of the property. You may wish to consult your conveyancing lawyer or the developer on the reimbursement of property tax payable for the period prior to the transfer of the property.
+Please note that there is no property tax waiver/ reduction for vacant properties, property tax remains payable during the period when the property is undergoing renovation.
+My property is not rented out. How does IRAS estimate its rental value in order to arrive at the AV?
+IRAS would analyse the rents of comparable or similar properties that have been rented out and make adjustments to the values to account for differences in location, size, conditions and other physical attributes.
+Can the AV be reduced to take into account the owner’s expenses such as interest cost, utilities, insurance and taxes?
+No, such expenses cannot be deducted for property tax purpose. AV is defined as the estimated gross annual rent at which the property can be let out on a yearly basis, with the landlord paying the expenses of repairs, insurance, maintenance and upkeep of the property.
+My actual rent is $2,500 per month. However, based on the annual value it is $3000 per month. How does IRAS determine the Annual Value?
+The AV could be higher or lower than the actual rental as the AV reflects the market rent at the time IRAS reviews the AV, whereas the actual rental could have been fixed earlier.
+We may not necessarily adopt your contracted rent in your tenancy agreement.
+Why is IRAS using rentals instead of sale prices to determine Annual Value?
+IRAS uses the annual market rent of comparable properties to determine the AV instead of transacted sale prices because:
+1.	There are generally more rental transactions than sales transactions. A higher number of transactions gives a more accurate picture of market activity.
+2.	The movements in sale prices are more volatile than rentals prices. Hence, using rental transactions to derive the AV helps to keep property tax more stable for property owners. Other countries like Hong Kong and Malaysia also adopt the same practice of using market rents to determine the AV.
+3.	Using historical purchase price to determine AV would be inequitable towards newer owners. This is because the prices of similar and comparable properties can change over time. For instance, newer owners may have a higher AV than those who bought properties in the past if properties prices increase over time.
+I Inherited my property and it has a very high Annual Value. I am staying in my property and do not generate rental income from it. I am just a regular salaried worker and do not intend to sell my property. Why do I need to pay higher property tax?
+As opposed to income tax, which taxes the income received by a person, property tax is a wealth tax. It is not a tax on rental income. It is thus levied based on the value of your property, which represents part of your overall wealth. However, to encourage home ownership, you can enjoy a lower tax rate for your owner-occupied residential property.
+Digital Services
+Property Owners
+Useful Links
+Object to Annual Value
+Pages
+Lower Property Tax Rates for Owner-Occupied Residential Properties
+Useful Links
+Singpass
+Useful Links
+Valuation Review Board (VRB)

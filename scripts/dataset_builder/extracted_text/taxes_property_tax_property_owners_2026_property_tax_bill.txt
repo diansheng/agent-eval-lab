@@ -1,0 +1,152 @@
+2026 Property Tax Bill
+You will receive your 2026 Property Tax bill from Dec 2025.
+On this page:
+2026 Property Tax Rebate and Property Tax Payable for Owner-Occupied Residential Properties
+The Government will provide a one-off Property Tax (PT) rebate of up to 15%, capped at $500, for all Owner-Occupied (OO) residential properties in 2026. The rebate will be automatically offset against any PT payable.
+Table 1: 2026 Property Tax Rebates for Owner-Occupied Residential Properties
+HDB Flat
+Private Property
+15%
+10% capped at $500
+Extended GIRO Scheme for Residential Property (Retirees)
+An extended instalment plan of up to 24 months for the payment of the property tax for your residential property is available if you meet the eligibility criteria for the scheme. With effect from 1 Jan 2026, the eligibility criteria are:
+You are residing in the property (i.e. your property is taxed at the
+owner-occupier tax rates
+); and
+Your assessable income must not exceed $39,000 (based on the latest tax assessment available); and
+All owner(s) of the property,
+are aged 65 or above; and
+There is outstanding property tax payable for the property.
+Refer to
+Experiencing difficulties in paying your tax?
+for the steps on how to apply for an extended instalment plan. You will be required to declare that you meet the above criteria in your application. Please note that your extended instalment plan will be reverted to the standard instalment plan of up to Dec 2026 if you are subsequently found to not have met the above criteria.
+Understanding property tax
+Property tax is a tax on ownership of property whether it is rented out, owner-occupied or vacant.
+Our Taxes. Our Nation.
+Property tax payments goes towards funding a child’s education, medical facilities for the aged and parks for all to enjoy!
+Annual Value (AV)
+AV is determined based on estimated market rentals of similar or comparable properties. You can compare it with rentals listed on the HDB and URA websites. To find out more, please refer to
+Annual Value
+.
+Property tax rates
+Property tax to be paid = AV X Tax Rates
+Property tax rates
+on owner-occupied and non-owner-occupied
+residential properties are applied on a progressive scale. All other properties are taxed at 10% of the Annual Value.
+Applying for owner-occupier tax rates
+If you are residing in your property but it is currently taxed at "non-owner-occupier residential tax rates", you can apply for the owner-occupier tax rates via our
+"Apply/ Withdraw Owner-Occupier Tax Rates"
+digital service. You can view the status of your application thereafter in the same digital service.
+For more information, please refer to
+Lower Property Tax Rates for Owner-Occupied Residential Properties
+Property tax payment
+Your property tax payment is due on
+31 Jan 2026
+. IRAS will send customised SMS reminders with your property address, tax amount to be paid and property tax reference number. Final reminders will be sent in the last week of January.
+Digital payments using your property tax reference number
+PayNow QR
+and
+AXS via myTax Portal
+: Payment will be updated to your tax account immediately.
+Other
+electronic payment modes
+.
+GIRO payments
+Enjoy one-time deduction or up to 12 interest-free monthly instalments with
+GIRO
+.
+For Individuals
+myTax Portal
+(for
+DBS/POSB ,OCBC, UOB, Bank of China, Citibank, HSBC and Maybank customers)
+Internet Banking (for
+POSB/DBS
+/
+OCBC
+/
+UOB
+customers)
+AXS
+stations (for DBS/POSB customers)
+For Businesses
+myTax Portal
+(for DBS/POSB, OCBC, UOB, Maybank and Bank of China customers)
+Taxpayers with previous GIRO arrangement with IRAS can re-activate GIRO at
+myTax Portal
+(Apply/Manage GIRO Plan).
+Check property tax balance
+Use the IRAS bot by clicking 'IRAS Bot' at the bottom right of the webpage or access the
+"Check Property Tax Balance"
+digital service to check your property tax balance.
+Electronic property tax (e-PT) bills
+Enjoy convenience and go green by choosing e-PT bills. You will be notified via SMS and/ or email when your e-PT Bill is ready. You may view your bill via our
+"View Property Tax Notices"
+digital service.
+Benefits of e-PT Bills
+No more lost mails! You may access your e-PT Bills with your Singpass.
+You may view up to 4 years of e-PT Bills anytime, anywhere.
+Receive SMS and/ or email notifications on how much to pay and by when.
+Improved property tax digital billing experience
+For owners who own more than 1 property and have opted for the consolidated electronic property tax bill. You will receive a single notification, instead of separate notifications, once your digital bills are ready for viewing at mytax.iras.gov.sg.
+The improved property summary allows you to get an overview of your portfolio of properties and print a consolidated summary statement.
+Corporate owners are able to download essential property tax information to suit your company’s needs.
+Interactive property tax bill (i-Bill)
+You can access your Interactive property tax bill (i-Bill) through myTax Portal Landing Page under Tax Matters at a Glance and pay your property tax bills on your mobile phones or laptops through i-Bill.
+Property tax digital services
+You can access digital services at
+myTax Portal
+to:
+Manage your preference for electronic or paper notices
+View your account summary (tax account details, payment plan schedule, statement of account, etc.)
+View your property summary (annual value, tax rate, etc.)
+View a copy of your notices/bills and correspondence
+Apply or withdraw owner-occupier tax rates
+Find out more information on our
+digital services
+.
+Useful links
+Property Tax Rebate for All Owner-Occupied Residential Properties in 2026
+Property Tax Calculator
+Check if you are eligible for
+Owner-Occupier Tax Rates
+FAQs
+I am overseas and cannot access to mytax.iras.gov.sg. How do I unsubscribe from receiving electronic notices?
+You can
+email
+IRAS to unsubscribe from receiving electronic notices.
+How do I make payment for my property taxes?
+The easiest way is to pay using AXS with your property tax reference number shown on your bill or by scanning PayNow QR code in myTax Portal. Your payment will be posted into the tax account immediately.
+Alternatively, you can make payment via internet banking. Please quote the 8-character tax reference number when making payment. The payment will be updated in 3 working days.
+Please visit our website for more information on the
+different modes of payment
+.
+I have made payment for my property tax. How come it still shows the outstanding tax in the tax portal? Has IRAS received my payment?
+We wish to share that for payment made via internet banking or bank transfer, it will be usually posted into your tax account within 3 working days.
+If I own and occupy more than one residential property, what will be the tax rate?
+The owner-occupier tax rates are only granted to one property owned and occupied by you. For subsequent properties, you will be taxed at non-owner-occupier residential tax rates even if you are occupying it as your second home.
+I reside in property (A) while my wife resides in property (B). Are the owner-occupier tax rates allowed on both properties?
+Under the Property Tax Act, when 2 owners are married to each other, you can only apply the owner-occupier tax rates to 1 owner-occupied home,  regardless of whether it is owned jointly or separately by both of you.
+My property is not rented out. How does IRAS estimate its rental value in order to arrive at the AV?
+IRAS would analyse the rents of comparable or similar properties that have been rented out and make adjustments to the values to account for differences in location, size, conditions and other physical attributes.
+My actual rent is $2,500 per month. However, based on the annual value it is $3,000 per month. How does IRAS determine the Annual Value?
+The AV could be higher or lower than the actual rental as the AV reflects the market rent at the time IRAS reviews the AV, whereas the actual rental could have been fixed earlier.
+How do I find out the Annual Value (AV) of a property?
+The owner of a property can check the current AV of his or her property at no cost by using our
+'View Property Summary'
+digital service. All AVs shown are as at current date.
+Please note that if there is any change to the AV stated in your 2026 Property Tax bill, it will only be reflected on the digital service from the effective date of change.
+If you are not the owner of the property, you can use the
+'Check Annual Value of Property'
+digital service to search the AV of a property at a fee of $2.50 per search. You can retrieve the AV of the current year and up to past five years. This digital service only provides information on AV, other information on the property is not made available.
+Pages
+Information for HDB Flat Owners
+Pages
+Tax Bills and Notices
+Pages
+How to Pay
+Pages
+Lower Property Tax Rates for Owner-Occupied Residential Properties
+Pages
+Annual Value
+Pages
+Interactive Property Tax Calculators

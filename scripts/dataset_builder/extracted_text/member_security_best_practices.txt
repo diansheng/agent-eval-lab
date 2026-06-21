@@ -1,0 +1,51 @@
+CPFB | Security best practices
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Security Best Practices
+The CPF Board has put security measures in place to protect your personal data. To further safeguard your information, do consider the following tips.
+Facebook
+Telegram
+WhatsApp
+Email
+LinkedIn
+X
+Notice
+Our CPF hotlines are temporarily unavailable due to technical difficulties related to Singtel. We apologise for any inconvenience caused. For urgent assistance, please reach us through our
+Text Us
+service, and we will respond as soon as we can.
+Online Security Tips
+Aside from the security measures that the Board have put in place, you also play an important role to ensure that your personal information is not compromised.
+We strongly recommend the following security tips:
+Safeguard your Singpass password
+Ensure no one is watching you while you are using your Singpass online.
+Keep your Singpass confidential. Do not share or reveal it to others.
+Do not use an easy to guess password for your Singpass (e.g. Your name, phone number, date of birth etc.).
+Choose a strong and unique password (e.g. a combination of alphanumeric characters of at least 8 characters minimum).
+Change your Singpass regularly (e.g. every 90 days).
+Remember your Singpass. Do not store it on your PC, mobile phone or write it on pieces of paper.
+Do not use the browser to “save” your Singpass for future reuse.
+You can also visit
+Singpass website
+for more security awareness tips to safeguard your Singpass account.
+Use only your personal device for online transaction. Avoid conducting online transaction on a public/Internet kiosk. In order to prevent virus/malware infection on your personal computing device, your personal computing device should be installed with anti-virus software with the latest updates.
+For mobile devices, only download applications from official app stores (e.g. Apple Appstore and Google Play Store). Beware of installing applications (i.e. files with .apk extension) directly from links coming from social media, email, or instant messages as it is possible for these files to contain malware that can harm your device’s security and steal your personal information.
+To protect your computer from cyber threats, always stay vigilant and update your software with the latest version and ensure automatic updates feature is enabled.
+Logoff your online session once you have completed your transaction or if you have to leave your PC unattended for a while.
+Clear your browser's cache and Internet history after each internet session.
+Remove confidential files from temporary storage area (e.g. temporary folder or external storage device) after you have transmitted your file through the CPF EZPay.
+Check your transaction history regularly via “
+my cpf
+digital services - My Activities” to ensure that there are no unauthorised transactions.
+For more security tips, you can also visit
+GoSafeOnline website
+or see
+How do I avoid falling prey to phishing scams?

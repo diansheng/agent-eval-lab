@@ -1,0 +1,114 @@
+IRAS | About Annual Value
+The basis for determining and revising the AV of buildings, land and development sites, and specialised properties.
+On this page:
+Determining AV of Buildings
+The AV of buildings is the
+estimated gross annual rent of the property if it were to be rented out
+, excluding furniture, furnishings and maintenance fees. It is determined based on estimated market rentals of similar or comparable
+properties and not on the actual rental income received.
+Example 1: AV of Flat
+Example 2: AV of Private Condominium Unit
+As an illustration, please see
+case study on AV of Private Condominium Unit
+(PDF, 198KB) on how AV is determined for such properties.
+Example 3: AV of Newly Built House
+As an illustration, please see
+case study on AV of newly built properties
+(PDF, 216KB) on how AV is determined for such properties.
+Property tax is payable and assessed for all residential properties regardless of whether the property is owner-occupied, vacant or rented out.
+The property tax payable is derived by applying the
+relevant tax rate
+(%) on the AV.
+Factors Considered in Determining AV of Buildings
+In determining the AV of a building, IRAS considers:
+rentals of similar or comparable properties in the vicinity;
+the size of the property;
+location of the property;
+the condition of the property; and
+other relevant physical attributes.
+To give me an idea of whether the AV on my property is fair, where can I find information on private residential properties or HDB flats that are let?
+You can refer to rentals of private residential properties at
+URA website
+(Rentals for Private Residential Developments) and rentals of HDB flats at
+HDB website
+(Rentals for HDB Flats).
+Determining AV of Land and Development Sites
+The AV of land and development sites is determined at
+5% of the estimated freehold market value.
+This applies to both vacant land and land under construction.
+Example 2: AV of Land and Development Sites
+The freehold market value of your land is $5,000,000.
+Annual Value = 5% X $5,000,000 =
+$250,000
+Determining AV of Specialised Properties
+Specialised properties are properties that are rarely rented out such as refineries, petrochemical and power plants.
+The AV of specialised properties may be assessed using the following methods:
+Statutory Formula
+The AV of the property may be determined based on
+5% of the freehold capital value
+.
+Other Valuation Methods
+The AV of the property may be determined using methods such as Profit's Method and Contractor's Test. This involves using costs and receipts to estimate the market rents of the properties.
+For
+hotels
+(PDF, 275KB) and ports, their
+AV will be determined using the Statutory Gross Receipts Method.
+For more details, please refer to the following e-Tax Guides:
+Tax Guide on Treatment of Fixed Machinery under the Property Tax Act
+(PDF, 84KB)
+Investor's Guide to Property Tax
+(PDF, 125KB)
+For investors in existing and emerging green energy assets - including electricity imports, carbon capture, hydrogen ecosystem projects - please refer to this
+Tax Guide
+for an overview of key property tax considerations.
+Review of the AV
+IRAS reviews the AV of properties yearly to reflect the changes in the market rental values of comparable properties. The AV will be amended if the latest market rent data no longer support your existing AV.
+If your property undergoes physical change that could materially affect its rental value, IRAS will also revise your AV from the date of change.
+IRAS will send property owners a Valuation Notice informing them of any upward or downward adjustment to the AV and the date when it is to take effect.
+Checking the AV of your Property
+You can check the AV of the current year and up to the past four years of your property using our '
+View Property Summary
+' digital service. All AVs shown are as at current date.
+Please note that if there is any change to the AV stated in your Jan bill, it will only be reflected on the digital service from the effective date of change.
+You can also check the AV of any property using the '
+Check Annual Value of Property
+' digital service at a fee of $2.50 per search.
+FAQs
+Assessment of Annual Value (AV)
+My property is not rented out. How does IRAS estimate its rental value in order to arrive at the AV?
+IRAS would analyse the rents of comparable or similar properties that have been rented out and make adjustments to the values to account for differences in location, size, conditions and other physical attributes.
+Can the AV be reduced to take into account the owner's expenses such as interest cost, utilities, insurance and taxes?
+No, such expenses cannot be deducted for property tax purpose. AV is defined as the estimated gross annual rent of a property.
+My actual rent is $2,500 per month. However, based on the annual value it is $3,000 per month. How does IRAS determine the Annual Value?
+The AV could be higher or lower than the actual rental as the AV reflects the market rent at the time IRAS reviews the AV, whereas the actual rental could have been fixed earlier.
+Why is IRAS using rentals instead of sale prices to determine AV?
+IRAS uses the annual market rent of comparable properties to determine the AV instead of transacted sale prices because:
+There are generally more rental transactions than sales transactions. A higher number of transactions gives a more accurate picture of market activity.
+The movements in sale prices are more volatile than rentals prices. Hence, using rental transactions to derive the AV helps to keep property tax more stable for property owners. Other countries like Hong Kong and Malaysia also adopt the same practice
+of using market rents to determine the AV.
+Using historical purchase price to determine AV would be inequitable towards newer owners. This is because the prices of similar and comparable properties can change over time. For instance, newer owners may have a higher AV than those who bought
+properties in the past if properties prices increase over time.
+Objection Matters
+Can I object to the AV?
+You can
+object
+to the AV and/or its effective date
+within 30 days from the date of the Valuation Notice
+. If you do not receive the Valuation Notice, you can also object to the AV at any time in the year if you can show that the market values have dropped to below the AV. You cannot, however, object to the tax rates.
+If my objection is disallowed, can I appeal?
+Yes. You may appeal to the
+Valuation Review Board
+(VRB) within 30 days of the notice of our decision to disallow or partially allow the objection. Please refer to the VRB website for details on filing an appeal.
+Property tax is payable even if you have filed an objection/appeal.
+Pages
+Interactive Property Tax Calculators
+Pages
+Check Rental Transactions from other Government Agencies
+Pages
+Property Tax Rates
+Pages
+Find out Annual Values
+Documents
+Treatment of Fixed Machinery under the Property Tax Act (PDF, 204KB)
+Documents
+Investor’s Guide to Property Tax (Fifth Edition) (PDF, 239KB)

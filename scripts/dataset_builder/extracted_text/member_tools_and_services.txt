@@ -1,0 +1,57 @@
+CPFB | Tools and services
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Tools and services
+Access CPF Board's suite of tools and services for members here.
+Facebook
+Telegram
+WhatsApp
+Email
+LinkedIn
+X
+PLAN with CPF
+Plan Life Ahead, Now! Discover planners and resources to help you make informed financial decisions as you navigate through life.
+Explore PLAN with CPF
+Dashboards and statements
+View your CPF balances and statements.
+Login
+https://www.cpf.gov.sg/member/ds
+false
+Forms and e-applications
+Access various application forms.
+View forms
+/content/web/sg/en/member/tools-and-services/forms-e-applications.html
+false
+Calculators
+Access calculators for various CPF-related matters.
+View calculators
+/content/web/sg/en/member/tools-and-services/calculators.html
+false
+Additional services
+Appointment services
+false
+Call/Service Centre
+Medical appointment
+Enquiry services
+false
+Platform worker opt-in status checker
+Investment services assessment tools
+false
+Self-Awareness Questionnaire (SAQ)
+Check my SAQ status
+CPF subscription services
+false
+Email alerts
+Telegram
+Other transaction modes
+false
+CPF Mobile app

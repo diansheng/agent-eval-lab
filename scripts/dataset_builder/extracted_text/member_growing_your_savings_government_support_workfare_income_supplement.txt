@@ -1,0 +1,464 @@
+CPFB | Workfare Income Supplement
+Scheduled maintenance:
+CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.
+Your session is about to time out.
+You have been inactive for a while. Would you like to log out or continue?
+Log out
+Continue
+We recommend viewing this page in the CPF Mobile app. Download the app?
+Download
+Continue with browser
+Your page is loading.
+One moment please.
+Growing your savings
+Boost your savings with Workfare Income Supplement
+The Workfare Income Supplement (WIS) scheme encourages eligible workers to work and build up their CPF savings by providing them with cash payments and additional CPF contributions.
+Facebook
+Telegram
+WhatsApp
+Email
+LinkedIn
+X
+Notice
+Our CPF hotlines are temporarily unavailable due to technical difficulties related to Singtel. We apologise for any inconvenience caused. For urgent assistance, please reach us through our
+Text Us
+service, and we will respond as soon as we can.
+Check your eligibility
+Overview
+Employee
+Self-employed
+Platform Worker
+Employer
+Resources
+FAQs
+Articles
+Check your eligibility
+Overview
+Employee
+Self-employed
+Platform Worker
+Employer
+Resources
+FAQs
+Articles
+Check your eligibility
+Visit the govbenefits website to check your Workfare Income Supplement eligibility
+Check here
+Overview
+Helping you save for the future
+CPF payments that grow your savings for retirement, housing and healthcare, plus cash payments to supplement your income, are some of the support that you can tap on.
+About Workfare
+Introduced in 2007, WIS supplements the incomes and CPF savings of lower-income workers to help them save for retirement.
+false
+Workfare is targeted at Singaporean workers whose earnings are in the bottom 20%, with some support for those slightly above.
+Over S$12.9 billion
+1
+of WIS has been disbursed to 1.13 million
+1
+lower-income workers.
+1
+As at February 2026, up to WY2025
+2
+WIS
+2
+Work Year (WY) refers to the calendar year of work done.
+/content/web/sg/en/member/growing-your-savings/government-support/workfare-income-supplement/about-workfare.html
+false
+View more
+Workfare is paid in the form of CPF payments and cash to supplement their incomes.
+false
+Employee
+WIS for employees
+If you are an eligible employee, you will receive CPF payments to help you save for retirement, plus cash payments to supplement your income.
+Eligibility
+You will qualify for WIS if you:
+are a Singapore Citizen;
+are at least 30 years old or older as of 31 December of the work year, or persons with disabilities of any age;
+earn a gross monthly income
+1
+of at least $500
+2
+, and not more than $3,000 (previously $2,500 for Work Year 2024) for the month worked as an employee;
+earn an average gross monthly income of not more than $3,000 in the past 12 months
+3
+(previously $2,500 for Work Year 2024) as an employee;
+live in a property with an annual value
+4
+of $21,000 and below from Work Year 2024, as at 31 December of the preceding year;
+own not more than one property
+5
+; and
+if you are married, you and your spouse together not own more than one property and the assessable income of your spouse does not exceed $70,000 of the preceding Year of Assessment.
+false
+1
+Gross monthly income includes basic salary and extra wages such as overtime pay, commissions and bonuses.
+2
+Persons with disabilities, workers who qualify for ComCare Short-to-Medium-Term Assistance and caregivers of care recipients (generally include caregivers residing with care recipients who are medically certified to have permanent moderate to severe disabilities) will qualify for concessionary WIS, even if they earn less than $500.
+Please click
+here
+for more information on the eligibility criteria for concessionary WIS.
+3
+Defined as sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month period
+4
+For more information on the computation of annual value, please visit the Inland Revenue Authority of Singapore (IRAS) website.
+5
+Includes all types of properties, e.g. Housing & Development Board flat, private property and non-residential property.
+Receiving WIS payments
+How much you can receive
+The table below shows the maximum WIS amount you can receive each year, based on your age group.
+false
+Age
+Maximum WIS per year
+For Work Year 2024
+For Work Year 2025
+30-34
+$2,100
+$2,450
+35-44
+$3,000
+$3,500
+45-59
+$3,600
+$4,200
+60 and above
+$4,200
+$4,900
+Persons with disabilities will receive the same amount as those who are aged 60 and above.
+You can also use the online WIS calculator to estimate how much you will receive.
+https://www.cpf.gov.sg/member/tools-and-services/calculators#section-header-379892678
+false
+Calculate your WIS
+How WIS payments are allocated
+You will receive 40% of your WIS in cash and 60% in CPF contributions. We will credit the cash portion to your
+PayNow NRIC-linked bank account
+if you have one. Otherwise, it will be credited to the bank account that you have registered to receive Government benefits, or via
+GovCash
+if you had not registered a bank account with us. If you need to update your local bank account details, you can do so after logging in to the e-Services.
+https://www.govpayouts.gov.sg/cds/main/login
+false
+Update bank details
+When you will receive your WIS payments
+As an employee, you will receive WIS every month. The table below shows when you will receive the payments.
+false
+If you worked in
+You will receive the WIS in your bank account or via GovCash
+PayNow-NRIC / Bank Crediting
+GovCash
+January
+End March
+1st week of April
+February
+End April
+1st week of May
+March
+End May
+1st week of June
+Month x
+End of month (x+2)
+1st week of the following month (x+3)
+https://www.govpayouts.gov.sg/cds/main/login
+true
+Check WIS payments
+Actions required
+If you are an employee, there’s no further action required
+Your eligibility for WIS will be automatically assessed based on the income declared by your employer(s) for work done in that month, if you/your employer has made CPF contributions.
+false
+If your employer is not contributing CPF on your behalf, please approach your employer to clarify on the discrepancies. If your employer does not provide you with a satisfactory response, you can
+lodge a report
+with CPF Board.
+If you worked as both an employee and a self-employed person,
+You will first be assessed for your work done as an employee and you will receive monthly WIS if you meet the criteria.
+After the work year, we will assess your eligibility for additional WIS, based on your total income for the year (both employee and self-employed income).
+false
+Self-employed
+WIS for self-employed persons
+If you are an eligible self-employed person (SEP), you can get MediSave payments to help you save for your healthcare needs, plus cash payments to supplement your income.
+Eligibility
+You will qualify for WIS if you:
+are a Singapore Citizen;
+are at least 30 years old or older as of 31 December of the work year, or persons with disabilities of any age;
+earn an average monthly income of at least $500
+1
+, and not more than $3,000 (previously $2,500 for Work Year 2024);
+have declared your net trade income and made MediSave contributions in full;
+live in a property with an annual value
+2
+of $21,000 and below from Work Year 2024, assessed as at 31 December of the preceding year;
+own not more than one property
+3
+; and
+if you are married, you and your spouse together own not more than one property and the assessable income of your spouse does not exceed $70,000 for the preceding Year of Assessment.
+false
+1
+Persons with disabilities, workers who qualify for ComCare Short-to-Medium-Term Assistance and caregivers of care recipients (generally include caregivers residing with care recipients who are medically certified to have permanent moderate to severe disabilities) will qualify for concessionary WIS, even if they earn less than $500. Please click
+here
+for more information on the eligibility criteria for concessionary WIS.
+2
+For more information on the computation of annual value, please visit the Inland Revenue Authority of Singapore (IRAS) website.
+3
+Include all types of properties, e.g. Housing & Development Board flat, private property and non-residential property.
+Receiving WIS payments
+How much you can receive
+The table below shows the maximum WIS amount you can receive each year, based on your age group.
+false
+Age
+Maximum WIS per year
+For Work Year 2024
+For Work Year 2025
+30-34
+$1,400
+$1,633
+35-44
+$2,000
+$2,333
+45-59
+$2,400
+$2,800
+60 and above
+$2,800
+$3,267
+Persons with disabilities will receive the same amount as those who are aged 60 and above.
+You can also use the online WIS calculator to estimate how much you will receive.
+/content/web/sg/en/member/tools-and-services/calculators.html#section-header-379892678
+false
+Calculate your WIS
+How WIS payments are allocated
+You will receive 10% of your WIS in cash and 90% in your MediSave account. We will credit the cash portion into your
+PayNow NRIC-linked bank account
+if you have one. Otherwise, it will be credited to the bank account that you have registered to receive Government benefits, or via
+GovCash
+if you had not registered a bank account with us. If you need to update your bank account details, you can do so after logging into the e-Services.
+https://www.govpayouts.gov.sg/cds/main/login
+false
+Update bank details
+When you will receive your WIS payments
+If you are a self-employed person (SEP), you will get WIS once a year for work done in the previous Work Year (WY).
+1
+The earliest you can get it is by end April of the following WY (e.g. by end April 2026 for Work Year 2025), if the following are completed by 31 March:
+You have declared your income to IRAS
+2
+, and CPF Board has received your assessed Net Trade Income (NTI)
+You have made your MediSave contributions in full based on your declared NTI earned in the WY,
+without
+accounting for (i) previous years’ losses and (ii) net earnings from platform work, if applicable.
+If you declare your income and make your full MediSave contributions after 31 March, you will get your WIS within two months after you complete making your MediSave contributions. Hence, the earlier you declare your income and make the required MediSave contribution, the sooner you will receive your WIS.
+1
+Eligible SEPs get WIS yearly because their NTI for the entire year can only be confirmed in the following year. Employees and platform workers get WIS monthly because their income is automatically reported through monthly CPF contributions.
+2
+If you receive a notification to file tax from IRAS, or you meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), please submit your tax return to IRAS directly from 1 March to 18 April of the following WY. If you do not receive a notification from IRAS or do not meet the requirement to file tax, please e-File your tax return to IRAS via myTax Portal, from 1 March to 31 October of the following WY.
+https://www.govpayouts.gov.sg/cds/main/login
+true
+Check WIS payments
+Actions required
+1. You will need to declare your income
+For Work Year 2023 (WY2023) onwards
+All Net Trade Income (NTI)
+1
+declarations from Work Year 2023 (Year of Assessment 2024) onwards can be made with the Inland Revenue Authority of Singapore (IRAS) by filing a tax return. There is no need to file separate declarations with CPF Board.
+If you receive a notification (via letter/form/SMS) to file tax from IRAS, or you meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), please complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.
+If you do not receive a notification from IRAS or do not meet the requirement to file tax (i.e. NTI is less than or equal to $6,000 and/or Total Income less than or equal to $22,000), please declare your self-employed NTI to IRAS via
+myTax Portal
+so that your eligibility for WIS can be assessed. The portal will be available from 1 March to 31 October annually for taxpayers to e-File tax returns.
+Once IRAS has assessed your income for the year, your assessed NTI will be transmitted to the Board. You can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.
+1
+NTI is your gross trade income minus all allowable business expenses, capital allowances and trade losses as determined by IRAS.
+false
+2. You will need to contribute to your MediSave account
+If your NTI is more than $6,000
+The amount of MediSave contribution you need to make to qualify for WIS is based on your NTI earned in the Work Year
+without
+accounting for (i) previous years’ losses and (ii) net earnings from platform work, if applicable. CPFB receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a SEP under the
+Self-Employed Scheme (SES)
+which may be adjusted based on previous years' losses or excess MediSave contributions.
+You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:
+i) WIS e-services: Login to the WIS
+e-services
+with your Singpass to check your MediSave liability payable.
+ii) WIS calculator:  Estimate the amount of MediSave payable using the
+WIS calculator
+for SEPs.
+If your NTI is $6,000 or less*
+You are not required to pay MediSave contribution under SES. However, in order to qualify for WIS, you will be required to make MediSave contributions in full within 2 years after the year you worked. E.g. if you worked in 2024, you will need to make the MediSave contributions by 31 December 2026. Please see the following for the required amount of MediSave contribution to qualify for WIS if your NTI is $6,000 or less, according to your age in the year you worked:
+30 to 34 years
+$240
+35 to 44 years
+$270
+45 to 49 years
+$300
+50 years and above
+$315
+*
+Note: SEPs earning less than $6,000 will also have to meet the eligibility criteria for concessionary WIS. Please refer to the concessionary WIS eligibility criteria
+here
+for more details.
+Please note the following timelines for declaring your income and fulfilling your required MediSave contribution to receive WIS:
+false
+Scenario
+Annual timelines for declaring income earned as an SEP during the preceding Work Year
+MediSave contribution deadline
+You received a notification (via letter/form/SMS) to file tax from IRAS, or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000)
+From 1 March to 18 April:
+Please complete and submit the tax return to IRAS directly.
+30 days from the date of issuance
+of the notice of CPF contributions for self-employed persons from CPF Board.
+Alternatively,
+31 December two years after the Work Year:
+If you are making your MediSave contributions via GIRO instalments*.
+You did not receive a notification from IRAS or do not meet the requirement to file tax
+From 1 March to 31 October:
+Please declare your self-employed NTI to IRAS via
+myTax Portal
+to e-File your tax returns.
+31 December two years after the Work Year.
+This deadline also applies to MediSave contributions via GIRO instalments*.
+* The respective annual timelines for declaring  to IRAS the income earned as an SEP during the preceding Work Year applies even if you are making your MediSave contributions via GIRO instalments, i.e. you will need to declare your income to IRAS (i) from 1 March to 18 April if you received a notification to file tax from IRAS or meet the requirement to file tax; or (ii) from 1 March to 31 October if you did not receive a notification to file tax from IRAS or do not meet the requirement to file tax.
+false
+Quick tip
+The earlier you declare your income and make the required MediSave contributions, the sooner you will receive your WIS.
+false
+Platform Worker
+WIS for platform workers
+From 2025, eligible platform workers will receive WIS monthly instead of annually, as platform operators will deduct CPF contributions from platform workers as and when they earn and submit them to CPF Board every month.
+From 2029, eligible platform workers who are mandated or opt in to the increased CPF contributions will receive higher WIS payments, at the same level as employees, when their CPF contribution rates fully align with that of employees. Eligible platform workers who have not opted in to the increased CPF contributions will continue to receive WIS at the same level as SEPs.
+Find out more about CPF contributions for platform workers
+Eligibility
+You will qualify for WIS if you:
+are a Singapore Citizen;
+are at least 30 years old or older as of 31 December of the work year, or persons with disabilities of any age;
+earn monthly income (including net earnings from platform work) of at least $500
+1
+, and not more than $3,000 (from Work Year 2025 onwards) for the month worked;
+earn an average gross monthly income (including net earnings from platform work) of not more than $3,000 (from Work Year 2025 onwards) in the past 12 months
+live in a property with an annual value
+2
+of $21,000 and below from Work Year 2024, as at 31 December of the preceding year;
+own not more than one property
+3
+; and
+if you are married, you and your spouse together not own more than one property and the assessable income of your spouse does not exceed $70,000 of the preceding Year of Assessment.
+false
+1
+Persons with disabilities, workers who qualify for ComCare Short-to-Medium-Term Assistance and caregivers of care recipients (generally include caregivers residing with care recipients who are medically certified to have permanent moderate to severe disabilities) will qualify for concessionary WIS, even if they earn less than $500.
+Please click
+here
+for more information on the eligibility criteria for concessionary WIS.
+2
+For more information on the computation of annual value, please visit the Inland Revenue Authority of Singapore (IRAS) website.
+3
+Includes all types of properties, e.g. Housing & Development Board flat, private property and non-residential property.
+Receiving WIS payments
+How much you can receive
+Platform workers continue to receive the same amount of WIS as SEPs from 2025 to 2028. The table below shows the maximum WIS amount you can receive each year, based on your age group.
+false
+Age
+Maximum WIS per year
+For Work Year 2025
+1
+30-34
+$1,633
+35-44
+$2,333
+45-59
+$2,800
+60 and above
+$3,267
+Persons with disabilities will receive the same amount as those who are aged 60 and above.
+You can also use the online WIS calculator to estimate how much you will receive.
+/content/web/sg/en/member/tools-and-services/calculators.html#section-header-379892678
+false
+Calculate your WIS
+How WIS payments are allocated
+You will receive 10% of your WIS in cash and 90% in your MediSave account. We will credit the cash portion into your PayNow NRIC-linked bank account if you have one. Otherwise, it will be credited to the bank account that you have registered to receive Government benefits, or via GovCash if you had not registered a bank account with us. If you need to update your bank account details, you can do so after logging into the e-Services.
+https://www.govpayouts.gov.sg/cds/main/login
+false
+Update bank details
+When you will receive your WIS payments
+As a platform worker, you will receive WIS every month from March 2025 onwards.
+1
+The table below shows when you will receive the payments.
+false
+If you worked in
+You will receive the WIS in your bank account or via GovCash
+PayNow-NRIC / Bank Crediting
+GovCash
+January
+End March
+1st week of April
+February
+End April
+1st week of May
+March
+End May
+1st week of June
+Month x
+End of month (x+2)
+1st week of the following month (x+3)
+1
+For work done in 2024 and earlier, platform workers receive WIS as SEPs. Please refer to the ‘
+WIS for self-employed persons
+’ for more information.
+false
+Actions required
+If you are a platform worker, there’s no further action required
+We will automatically assess your eligibility for WIS based on the monthly income declared by your platform operators.
+false
+If your platform operator is not contributing CPF on your behalf, please approach your platform operator to clarify on the discrepancies. If your platform operator does not provide you with a satisfactory response, you can
+lodge a report
+with CPF Board.
+Employer
+What you need to know as an employer
+We will automatically assess your employees’ eligibility for WIS based on the CPF contributions you make. For more information such as Employer obligations and making CPF contributions, you may visit the
+Employer
+section.
+Find out more about your CPF obligations at the Ministry of Manpower (MOM) website on the Workright initiative.
+Visit MOM
+How WIS helps employers
+WIS encourages Singaporeans to work, making it easier for you to hire and retain local workers.
+WIS is fully paid for by the Government and doesn’t increase business costs for local enterprises.
+false
+Resources
+Need more information?
+Your Workfare Income Supplement Scheme Eligibility
+Click here to check your eligibility and payment details via the govbenefits website
+WIS Calculator
+Click here to estimate how much WIS you may receive
+Workfare Skills Support Scheme
+Find out how the scheme can help you to undertake training that leads to more impactful employment outcomes
+Scheduled Maintenance Activities
+Click here for more details on the upcoming Scheduled Maintenance Activities for e-Services.
+Show all
+FAQs
+Common questions
+What are the eligibility criteria of the Workfare Income Supplement scheme?
+What do I need to do to receive Workfare Income Supplement?
+How much Workfare Income Supplement will I get?
+View all
+https://www.cpf.gov.sg/service/sub-categories?category=P_M_GYS
+false
+Articles
+Related Reads
+Growing savings
+Workfare – supplementing Singaporeans
+Read stories from 2 Singaporeans on how Workfare has helped them save for their healthcare and retirement needs.
+06 Mar 2023 • 8 minute read
+Growing savings
+Workfare – working with you for a better future
+Find out why Workfare is better than Minimum Wage.
+06 Mar 2023 • 10 minute read
+CPF announcements
+CPF changes announced in Budget and COS 2025 and what it means for you
+Stay informed about the latest CPF changes announced in Budget and Committee of Supply (COS) 2025.
+18 Mar 2025 • 15 minute read
+Growing savings
+Workfare – supplementing Singaporeans
+Read stories from 2 Singaporeans on how Workfare has helped them save for their healthcare and retirement needs.
+06 Mar 2023 • 8 minute read
+Growing savings
+Workfare – working with you for a better future
+Find out why Workfare is better than Minimum Wage.
+06 Mar 2023 • 10 minute read
+CPF announcements
+CPF changes announced in Budget and COS 2025 and what it means for you
+Stay informed about the latest CPF changes announced in Budget and Committee of Supply (COS) 2025.
+18 Mar 2025 • 15 minute read
+View all
