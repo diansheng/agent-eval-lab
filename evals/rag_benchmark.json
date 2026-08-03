@@ -1,182 +1,182 @@
 [
   {
     "id": 1,
-    "question": "What information is provided in the document regarding member_infohub_educational_resources_boost_your_retirement_by_monetising_your_flat?",
-    "gold_answer": "\u00b7 The Silver Housing Bonus and Lease Buyback scheme are two options that can provide financial incentives based on your housing preferences in retirement. \u00b7 Use the Retirement Payout Planner",
+    "question": "What scheme can provide financial incentives to seniors who find themselves living in a larger space than they need after their children move out?",
+    "gold_answer": "The Silver Housing Bonus is a scheme that provides financial incentives to seniors who become 'empty nesters' living in a larger space than they need after their children move out, helping them achieve a more comfortable retirement.",
     "source_doc": "member_infohub_educational_resources_boost_your_retirement_by_monetising_your_flat_1"
   },
   {
     "id": 2,
-    "question": "What information is provided in the document regarding member_home_ownership_protecting_against_losing_your_home?",
-    "gold_answer": "https://www.cpf.gov.sg/service/feedback false Write to us",
+    "question": "What types of life insurance policies can I use to apply for exemption from the Home Protection Scheme (HPS)?",
+    "gold_answer": "You can apply for HPS exemption using the following insurance policies: Whole Life, Term Life, Endowments, Life Riders (must be attached to a basic policy), and Mortgage Reducing Term Assurance (MRTA) / Decreasing Term Rider. These policies must cover your outstanding housing loan up to the full term of loan or until you turn 65, whichever is earlier.",
     "source_doc": "member_home_ownership_protecting_against_losing_your_home_10"
   },
   {
     "id": 3,
-    "question": "What information is provided in the document regarding member_healthcare_financing_using_your_medisave_savings?",
-    "gold_answer": "An outpatient at an approved day hospital (for $150 per day, up to $3,000 per annum) false Palliative care",
+    "question": "What is the withdrawal limit for using a family member's MediSave to pay for home palliative or day hospice care?",
+    "gold_answer": "You may tap on your family member's MediSave for payment, up to a withdrawal limit of $2,500 per patient per lifetime.",
     "source_doc": "member_healthcare_financing_using_your_medisave_savings_4"
   },
   {
     "id": 4,
-    "question": "What information is provided in the document regarding member_account_services_fighting_scams_trusted_contacts?",
-    "gold_answer": "As long as your appointee hasn't accepted your request yet, you can withdraw your request. To do this, go to Activities and open the Trusted Contact request.",
+    "question": "Can I cancel my Trusted Contact request if the person I appointed hasn't accepted it yet?",
+    "gold_answer": "Yes, as long as your appointee hasn't accepted your request yet, you can withdraw it by going to Activities and opening the Trusted Contact request.",
     "source_doc": "member_account_services_fighting_scams_trusted_contacts_6"
   },
   {
     "id": 5,
-    "question": "What information is provided in the document regarding member_account_services_fighting_scams_cpf_account_safeguards?",
-    "gold_answer": "Keep your daily withdrawal limit low. Activate the CPF Withdrawal Lock to disable online CPF withdrawals if not withdrawing soon. Consider reviewing and updating your details in your Account settings regularly, especially when prompted by CPF Board.",
+    "question": "How can I verify if a call or message claiming to be from CPF Board is legitimate?",
+    "gold_answer": "CPF Board will only call from 6227 1188 and will never call via WhatsApp. SMS messages will always come from \"gov.sg\", and emails will always end with @cpf.gov.sg or @e.cpf.gov.sg. If in doubt, call the 24/7 ScamShield helpline at 1799.",
     "source_doc": "member_account_services_fighting_scams_cpf_account_safeguards_3"
   },
   {
     "id": 6,
-    "question": "What information is provided in the document regarding member_retirement_income?",
-    "gold_answer": "I am reaching age 65. How do I start my monthly payouts? View all https://www.cpf.gov.sg/service/sub-categories?category=P_M_RI",
+    "question": "Where can I find resources to help with financial planning and growing my CPF savings for retirement payouts?",
+    "gold_answer": "You can use PLAN with CPF, which is a one-stop financial guidance platform for financial planning resources. Additionally, there are articles available such as '4 ways to grow your retirement payouts' to help increase your CPF savings for higher monthly payouts when you retire.",
     "source_doc": "member_retirement_income_5"
   },
   {
     "id": 7,
-    "question": "What information is provided in the document regarding member_terms_of_use?",
-    "gold_answer": "Receipts will only be issued to you if payment is subsequently received and processed by the Board successfully. If any payment is not cleared by the relevant bank, you would get an unsuccessful message from the relevant bank's website. For employers and platform operators who have made Direct Debit/GIRO arrangement with the Board, your bank account will not be debited immediately after you submitted your payment advice to the Board online. The Board will send debit instruction to your designated bank to debit your designated bank account for the amount submitted by you and on the date agreed by you. The time frame within which you must make good the payment depends on the nature of payment, e.g., the due date for CPF contributions is on the last day of the calendar month. You are expected to submit your CPF contributions for your employees and platform workers by the due date. Enforcement action would be taken against employers and platform operators who fail to pay by the 14",
+    "question": "What is the due date for CPF contributions?",
+    "gold_answer": "The due date for CPF contributions is on the last day of the calendar month.",
     "source_doc": "member_terms_of_use_15"
   },
   {
     "id": 8,
-    "question": "What information is provided in the document regarding member_home_ownership_using_your_cpf_to_buy_a_home?",
-    "gold_answer": "CPFB | Using your CPF to buy a home Scheduled maintenance: CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.",
+    "question": "What information does the document provide about this topic?",
+    "gold_answer": "CPFB | Using your CPF to buy a home\nScheduled maintenance:\nCPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.\nYour session is about to tim...",
     "source_doc": "member_home_ownership_using_your_cpf_to_buy_a_home_0"
   },
   {
     "id": 9,
-    "question": "What information is provided in the document regarding member_account_services_fighting_scams_trusted_contacts?",
-    "gold_answer": "Text Us service, and we will respond as soon as we can. Overview",
+    "question": "What notifications will my Trusted Contact receive about my CPF account?",
+    "gold_answer": "Your Trusted Contact will receive copies of CPF Board's notifications for key CPF transactions, such as withdrawals and changes to your contact details.",
     "source_doc": "member_account_services_fighting_scams_trusted_contacts_1"
   },
   {
     "id": 10,
-    "question": "What information is provided in the document regarding member_home_ownership_protecting_against_losing_your_home?",
-    "gold_answer": "CPFB | Protecting against losing your home Scheduled maintenance: CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.",
+    "question": "What does the Home Protection Scheme (HPS) protect me against as an HDB flat owner?",
+    "gold_answer": "The Home Protection Scheme (HPS) is a mortgage-reducing insurance that protects you and your loved ones from losing your Housing and Development Board (HDB) flat in the event of death, terminal illness, or total permanent disability.",
     "source_doc": "member_home_ownership_protecting_against_losing_your_home_0"
   },
   {
     "id": 11,
-    "question": "What information is provided in the document regarding member_infohub_educational_resources?",
-    "gold_answer": "21 Jun 2024 \u2022 6 minute read Account security How to stay safe from scams",
+    "question": "According to CPF Board, why are CPF nomination and Lasting Power of Attorney (LPA) important for financial planning?",
+    "gold_answer": "CPF nomination and LPA are crucial for financial planning as they help protect your loved ones from undue burdens.",
     "source_doc": "member_infohub_educational_resources_30"
   },
   {
     "id": 12,
-    "question": "What information is provided in the document regarding member_account_services_fighting_scams_trusted_contacts?",
-    "gold_answer": "false Step 3: Update contact details Before you add a Trusted Contact online,",
+    "question": "Within how many days does my appointee need to accept my request to add them as a Trusted Contact on CPF?",
+    "gold_answer": "Your appointee must accept the request within 7 days. The appointment becomes official once they accept.",
     "source_doc": "member_account_services_fighting_scams_trusted_contacts_5"
   },
   {
     "id": 13,
-    "question": "What information is provided in the document regarding member_tools_and_services_forms_e_applications?",
-    "gold_answer": "Apply online Instruction to transfer sale proceeds (division of matrimonial assets) \u200bFORM INV/DMA-SP",
+    "question": "What form should I use to transfer my CPF investment sale proceeds to my ex-spouse's CPF account under division of matrimonial assets?",
+    "gold_answer": "You should use Form INV/DMA-SP to transfer your CPF investment sale proceeds from your CPF account to your ex-spouse's CPF account under division of matrimonial assets.",
     "source_doc": "member_tools_and_services_forms_e_applications_17"
   },
   {
     "id": 14,
-    "question": "What information is provided in the document regarding member_home_ownership_home_buying_guide_for_members_below_55?",
-    "gold_answer": "Using cash means that you will not need to make a CPF refund to your CPF account upon the sale of your property. Thus, you may receive higher cash proceeds. Possibly lower proceeds upon sale You will need to refund more to your CPF account and thus may receive lower cash proceeds. Nonetheless, you can still use your CPF refund for your next flat, even though it cannot be used for payments that need to be paid in cash such as renovation.",
+    "question": "If I used CPF to buy my property and later sell it, what restrictions apply to the CPF refund I receive?",
+    "gold_answer": "You will need to refund more to your CPF account and may receive lower cash proceeds. Additionally, the CPF refund cannot be used for payments that need to be paid in cash, such as renovation costs.",
     "source_doc": "member_home_ownership_home_buying_guide_for_members_below_55_26"
   },
   {
     "id": 15,
-    "question": "What information is provided in the document regarding member_healthcare_financing?",
-    "gold_answer": "false Find out more Long-term care",
+    "question": "How much can I withdraw per month from MediSave Care if I am severely disabled and aged 30 and above?",
+    "gold_answer": "You can withdraw up to $200 per month from your own, or your spouse's MediSave.",
     "source_doc": "member_healthcare_financing_5"
   },
   {
     "id": 16,
-    "question": "What information is provided in the document regarding member_account_services_cpf_asset_management_on_your_passing_away?",
-    "gold_answer": "Things to note Resources FAQs",
+    "question": "If my Singapore Citizen father passes away, do I need to inform CPF Board about his death?",
+    "gold_answer": "No, you do not need to inform CPF Board. ICA will automatically inform CPF Board of the death once it is registered, and CPF Board will contact you to withdraw the deceased's savings only if you are one of the deceased's nominees.",
     "source_doc": "member_account_services_cpf_asset_management_on_your_passing_away_1"
   },
   {
     "id": 17,
-    "question": "What information is provided in the document regarding member_retirement_income_retirement_withdrawals_withdrawing_on_reduced_life_expectancy?",
-    "gold_answer": "CPFB | Withdrawing on reduced life expectancy Scheduled maintenance: CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.",
+    "question": "Can I withdraw my CPF savings if I have a medical condition that reduces my life expectancy?",
+    "gold_answer": "Yes, if you have a reduced life expectancy due to a medical condition certified by an accredited doctor, you may apply to withdraw some of your CPF savings. Severe medical conditions that cause you to be permanently unfit for work or to lack mental capacity permanently can also be considered.",
     "source_doc": "member_retirement_income_retirement_withdrawals_withdrawing_on_reduced_life_expectancy_0"
   },
   {
     "id": 18,
-    "question": "What information is provided in the document regarding member_healthcare_financing_using_your_medisave_savings?",
-    "gold_answer": "View all https://www.cpf.gov.sg/service/sub-categories?category=P_M_HF false",
+    "question": "When was the article about buying an Integrated Shield Plan published and how long does it take to read?",
+    "gold_answer": "The article 'What to know when buying an Integrated Shield Plan (IP)' was published on 12 Jan 2024 and is a 6 minute read.",
     "source_doc": "member_healthcare_financing_using_your_medisave_savings_9"
   },
   {
     "id": 19,
-    "question": "What information is provided in the document regarding member_home_ownership_home_buying_guide_for_members_below_55?",
-    "gold_answer": "false Read article to find out more Watch video",
+    "question": "Under joint tenancy, can I sell only my share of the property without changing the ownership structure?",
+    "gold_answer": "No. Under joint tenancy, you will need to convert to tenancy-in-common first before you can only sell your share of the property.",
     "source_doc": "member_home_ownership_home_buying_guide_for_members_below_55_32"
   },
   {
     "id": 20,
-    "question": "What information is provided in the document regarding member_terms_of_use?",
-    "gold_answer": "your access to or use of this Website (including any tools, online services or Contents provided in or available from this Website), and any claim made by a third party in connection with your access or use; or your breach of any of these Terms of Use, and any claim made by a third party in connection with your breach of these Terms of Use. \u200b\u200b\u200bRight of\u200b Access\u200b",
+    "question": "Can the CPF Board block my access to the website without giving me a reason or warning?",
+    "gold_answer": "Yes, CPFB reserves the right to deny or restrict access to the website to any particular person, or to block access from a particular Internet address, at any time, without having to give any reason or prior notice.",
     "source_doc": "member_terms_of_use_10"
   },
   {
     "id": 21,
-    "question": "What information is provided in the document regarding member_terms_of_use?",
-    "gold_answer": "PayNow QR You shall transfer the Payment Amount to CPFB by scanning the PayNow QR Code through your relevant mobile banking application within the time as specified by CPFB. Failing which, CPFB shall treat the application and/or submission as withdrawn after the validity of the PayNow QR Code lapses. You shall be solely responsible for specifying the Payment Amount and ensuring that CPFB is the intended recipient of the Payment Amount prior to transferring the Payment Amount from your designated bank account or participating NFIs. CPFB may share the PayNow QR Code with you by mail; online or through any other means as may be determined by CPFB from time to time.",
+    "question": "What happens if I fail to transfer the payment amount to CPFB using the PayNow QR code within the specified time?",
+    "gold_answer": "CPFB shall treat the application and/or submission as withdrawn after the validity of the PayNow QR Code lapses.",
     "source_doc": "member_terms_of_use_25"
   },
   {
     "id": 22,
-    "question": "What information is provided in the document regarding member_account_services_cpf_asset_management_on_divorce?",
-    "gold_answer": "Transfer orders can be enforced even if the party transferring the savings has yet to meet their Full Retirement Sum. Charging order Under a charging order, the CPF Board pays 1 party's CPF savings to the receiving party in cash. A charging order is generally possible only if the paying party is aged 55 or above, and eligible to withdraw their CPF savings.",
+    "question": "If I am getting divorced and my ex-spouse is a Singapore Citizen, which of my CPF accounts can be charged under a court order to pay them?",
+    "gold_answer": "Generally, only withdrawable savings in your Ordinary Account (after setting aside the Full Retirement Sum in your Retirement Account) can be charged and paid to the receiving party.",
     "source_doc": "member_account_services_cpf_asset_management_on_divorce_6"
   },
   {
     "id": 23,
-    "question": "What information is provided in the document regarding member_growing_your_savings_earning_higher_returns_investing_your_cpf_savings?",
-    "gold_answer": "Only invest your CPF savings if you\u2019re confident of earning more than the CPF interest. https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest false",
+    "question": "Which agent banks can I open a CPF Investment Account with to invest my OA savings?",
+    "gold_answer": "You can open a CPF Investment Account with DBS Bank Ltd (DBS), Overseas-Chinese Banking Corporation Ltd (OCBC), or United Overseas Bank Ltd (UOB).",
     "source_doc": "member_growing_your_savings_earning_higher_returns_investing_your_cpf_savings_6"
   },
   {
     "id": 24,
-    "question": "What information is provided in the document regarding member_healthcare_financing_using_your_medisave_savings?",
-    "gold_answer": "/content/web/sg/en/member/healthcare-financing/eldershield.html false Learn more",
+    "question": "Can I use my MediSave at a private hospital?",
+    "gold_answer": "Yes, you can use your MediSave at participating medical institutions, which include private hospitals and specialist clinics.",
     "source_doc": "member_healthcare_financing_using_your_medisave_savings_6"
   },
   {
     "id": 25,
-    "question": "What information is provided in the document regarding member_cpf_overview?",
-    "gold_answer": "false Self-employed If you\u2019re self-employed, you need to contribute to MediSave. These savings will be especially important in old age when you may have stopped working.",
+    "question": "As a self-employed person in Singapore, can I make cash top-ups to my CPF accounts to earn interest when I have no regular contributions?",
+    "gold_answer": "Yes. Whether you are an employee or self-employed, you can make cash top-ups to your OA, SA, and MA, or only your MA. By making cash top-ups, you can earn interest even when you are not working or do not have regular CPF contributions.",
     "source_doc": "member_cpf_overview_5"
   },
   {
     "id": 26,
-    "question": "What information is provided in the document regarding iras_property_tax?",
-    "gold_answer": "However, to encourage home ownership, you can enjoy a lower tax rate for your owner-occupied residential property. Pages Interactive Property Tax Calculators",
+    "question": "Is there a lower property tax rate for owner-occupied residential properties in Singapore?",
+    "gold_answer": "Yes, to encourage home ownership, you can enjoy a lower tax rate for your owner-occupied residential property.",
     "source_doc": "iras_property_tax_12"
   },
   {
     "id": 27,
-    "question": "What information is provided in the document regarding member_growing_your_savings_cpf_contributions_saving_as_an_employee?",
-    "gold_answer": "false Learn more What payments attract CPF contributions?",
+    "question": "What is the difference between the Ordinary Wage (OW) ceiling and the Additional Wage (AW) ceiling for CPF contributions?",
+    "gold_answer": "The OW ceiling is capped per month, while the AW ceiling is calculated on a per annum basis. Both ceilings limit the amount of wages that would attract CPF contributions.",
     "source_doc": "member_growing_your_savings_cpf_contributions_saving_as_an_employee_4"
   },
   {
     "id": 28,
-    "question": "What information is provided in the document regarding member_infohub_educational_resources?",
-    "gold_answer": "Earn risk-free interest and receive potentially more cash proceeds upon the sale of your property by making a voluntary housing refund. 29 May 2026 \u2022 7 minute read Account security",
+    "question": "What are the benefits of making a voluntary housing refund to my CPF?",
+    "gold_answer": "By making a voluntary housing refund, you can earn risk-free interest and receive potentially more cash proceeds upon the sale of your property.",
     "source_doc": "member_infohub_educational_resources_3"
   },
   {
     "id": 29,
-    "question": "What information is provided in the document regarding member_useful_links?",
-    "gold_answer": "CPFB | Useful links Scheduled maintenance: CPF digital services are unavailable on 7 Jun 2026, from 12am to 8am. We apologise for the inconvenience caused.",
+    "question": "What should I do if I need urgent assistance from CPF while the hotlines are temporarily unavailable?",
+    "gold_answer": "For urgent assistance, you should reach CPF through their 'Text Us' service, and they will respond as soon as they can.",
     "source_doc": "member_useful_links_0"
   },
   {
     "id": 30,
-    "question": "What information is provided in the document regarding member_growing_your_savings_government_support_workfare_income_supplement?",
-    "gold_answer": "Click here to check your eligibility and payment details via the govbenefits website WIS Calculator Click here to estimate how much WIS you may receive",
+    "question": "Where can I check my eligibility and payment details for the Workfare Income Supplement (WIS)?",
+    "gold_answer": "You can check your eligibility and payment details via the govbenefits website.",
     "source_doc": "member_growing_your_savings_government_support_workfare_income_supplement_27"
   }
 ]
