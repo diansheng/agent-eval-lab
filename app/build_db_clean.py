@@ -11,10 +11,10 @@ from rag.vector_store import VectorStore
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def build_db_clean():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    dataset_path = os.path.join(base_dir, "../scripts/dataset_builder/output_clean/rag_dataset.jsonl")
-    index_path = os.path.join(base_dir, "data/vector_store_clean/index.faiss")
-    meta_path = os.path.join(base_dir, "data/vector_store_clean/metadata.json")
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    dataset_path = os.path.join(base_dir, "data/v2/chunks/rag_dataset.jsonl")
+    index_path = os.path.join(base_dir, "data/v2/vector_store/index.faiss")
+    meta_path = os.path.join(base_dir, "data/v2/vector_store/metadata.json")
     
     # Ensure destination directory exists
     os.makedirs(os.path.dirname(index_path), exist_ok=True)

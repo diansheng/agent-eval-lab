@@ -60,9 +60,7 @@ def run_extractor(raw_dir, output_dir):
         out_path = os.path.join(output_dir, f"{name}.txt")
         with open(out_path, 'w', encoding='utf-8') as f:
             f.write(text)
-            
-        # The chunker will now read metadata directly from the raw_data folder
-        # We no longer need to copy it to the extracted_text folder
 
 if __name__ == "__main__":
-    run_extractor("raw_data", "extracted_text")
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    run_extractor(os.path.join(base_dir, "data", "raw"), os.path.join(base_dir, "data", "v1", "extracted"))

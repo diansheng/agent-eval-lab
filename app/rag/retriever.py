@@ -4,26 +4,18 @@ from .embedder import get_embedding
 from .vector_store import VectorStore
 
 class Retriever:
-    def __init__(self, index_path: str = None, meta_path: str = None):
+    def __init__(self, version: str = "v1"):
         """
         Initializes the retriever with a loaded VectorStore.
+        Allows specifying 'v1' (baseline) or 'v2' (clean) dataset.
         """
         self.vector_store = VectorStore()
         
-        # Determine paths relative to the app root if not provided
-        if not index_path:
-            base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-            index_path = os.path.join(base_dir, "data", "faiss.index")
-        if not meta_path:
-            base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-            meta_path = os.path.join(base_dir, "data", "metadata.json")
-            
-        self.index_path = index_path
-        self.meta_path = meta_path
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        index_path = os.path.join(base_dir, "data", version, "vector_store", "index.faiss")
+        meta_path = os.path.join(base_dir, "data", version, "vector_store", "metadata.json")
         
-        # Load if they exist
-        if os.path.exists(self.index_path) and os.path.exists(self.meta_path):
-            self.vector_store.load(self.index_path, self.meta_path)
+        self.vector_store.load(index_path, meta_path)
             
     def search(self, query: str, top_k: int = 3) -> list[dict]:
         """

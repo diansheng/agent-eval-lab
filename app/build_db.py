@@ -11,10 +11,12 @@ from rag.vector_store import VectorStore
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def build_db():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    dataset_path = os.path.join(base_dir, "../scripts/dataset_builder/output/rag_dataset.jsonl")
-    index_path = os.path.join(base_dir, "data/vector_store/index.faiss")
-    meta_path = os.path.join(base_dir, "data/vector_store/metadata.json")
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    dataset_path = os.path.join(base_dir, "data/v1/chunks/rag_dataset.jsonl")
+    index_path = os.path.join(base_dir, "data/v1/vector_store/index.faiss")
+    meta_path = os.path.join(base_dir, "data/v1/vector_store/metadata.json")
+    
+    os.makedirs(os.path.dirname(index_path), exist_ok=True)
     
     if not os.path.exists(dataset_path):
         logging.error(f"Dataset not found at {dataset_path}")

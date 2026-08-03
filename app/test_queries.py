@@ -10,10 +10,10 @@ from rag.retriever import Retriever
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
-def test_retrieval():
+def test_retrieval(version="v1"):
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    index_path = os.path.join(base_dir, "data/vector_store/index.faiss")
-    meta_path = os.path.join(base_dir, "data/vector_store/metadata.json")
+    index_path = os.path.join(base_dir, f"../data/{version}/vector_store/index.faiss")
+    meta_path = os.path.join(base_dir, f"../data/{version}/vector_store/metadata.json")
     
     logging.info("Initializing Retriever...")
     retriever = Retriever(index_path=index_path, meta_path=meta_path)

@@ -73,5 +73,5 @@ def run_extractor(raw_dir, output_dir):
             f.write(text)
 
 if __name__ == "__main__":
-    # Output to a NEW folder: extracted_text_clean
-    run_extractor("raw_data", "extracted_text_clean")
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    run_extractor(os.path.join(base_dir, "data", "raw"), os.path.join(base_dir, "data", "v2", "extracted"))

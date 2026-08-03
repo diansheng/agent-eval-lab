@@ -266,7 +266,8 @@ def _get_retriever():
     global _rag_retriever
     if _rag_retriever is None:
         from app.rag.retriever import Retriever
-        _rag_retriever = Retriever()
+        # Use 'v2' for the clean dataset, or 'v1' for baseline
+        _rag_retriever = Retriever(version="v2")
     return _rag_retriever
 
 def _run_tool(

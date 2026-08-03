@@ -44,15 +44,15 @@ class VectorStore:
         with open(meta_path, "w", encoding="utf-8") as f:
             json.dump(self.metadata, f, indent=2)
 
-    def load(self, index_path: str, meta_path: str):
+    def load(self, index_path: str = "data/v1/vector_store/index.faiss", meta_path: str = "data/v1/vector_store/metadata.json"):
         """
         Loads the FAISS index and metadata from disk.
         """
         if not os.path.exists(index_path) or not os.path.exists(meta_path):
-            raise FileNotFoundError("Index or metadata file not found.")
+            raise FileNotFoundError(f"Index or metadata not found at {index_path} / {meta_path}")
             
         self.index = faiss.read_index(index_path)
-        with open(meta_path, "r", encoding="utf-8") as f:
+        with open(meta_path, 'r', encoding='utf-8') as f:
             self.metadata = json.load(f)
             
         self.dimension = self.index.d

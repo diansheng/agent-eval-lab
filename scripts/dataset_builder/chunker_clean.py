@@ -7,7 +7,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def run_chunker(extracted_dir, output_dir):
+def run_chunker(extracted_dir, raw_dir, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
         
@@ -29,7 +29,7 @@ def run_chunker(extracted_dir, output_dir):
         with open(txt_path, 'r', encoding='utf-8') as f:
             text = f.read()
             
-        meta_path = os.path.join(os.path.dirname(extracted_dir), "raw_data", f"{name}.meta.yaml")
+        meta_path = os.path.join(raw_dir, f"{name}.meta.yaml")
         metadata = {}
         if os.path.exists(meta_path):
             with open(meta_path, 'r') as f:
@@ -59,5 +59,9 @@ def run_chunker(extracted_dir, output_dir):
     logging.info(f"Saved {len(all_chunks)} CLEAN chunks to {out_file}")
 
 if __name__ == "__main__":
-    # Pull from the new extracted text folder and output to a new output folder
-    run_chunker("extracted_text_clean", "output_clean")
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    run_chunker(
+        os.path.join(base_dir, "data", "v2", "extracted"),
+        os.path.join(base_dir, "data", "raw"),
+        os.path.join(base_dir, "data", "v2", "chunks")
+    )
