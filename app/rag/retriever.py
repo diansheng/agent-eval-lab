@@ -53,8 +53,8 @@ class Retriever:
                 
             chunk_data = self.vector_store.metadata[idx]
             results.append({
-                "text": chunk_data["text"],
-                "source": chunk_data["source"],
+                "text": chunk_data.get("text") or chunk_data.get("content", ""),
+                "source": chunk_data.get("source") or chunk_data.get("metadata", {}).get("source", "Unknown"),
                 "distance": float(distances[0][i]) # Add distance score for reference
             })
             
